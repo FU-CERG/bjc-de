@@ -5,51 +5,51 @@ title: Unit 4: The Internet and Global Impact
 raw-html:<span class="todo"></span>
 
 heading: Lab 1: Number Representation
-	resource: Binary Representation [/bjc-r/cur/programming/4-internet/1-number-representation/1-binary.html]
-	resource: Binary Sequences [/bjc-r/cur/programming/4-internet/1-number-representation/2-binary-sequences.html]
-	resource: Hexadecimal Representation [/bjc-r/cur/programming/4-internet/1-number-representation/3-hexadecimal.html]
-	resource: Using Hex [/bjc-r/cur/programming/4-internet/1-number-representation/4-using-hex.html]
-	resource: Binary Timer Snap! Project (Teacher's Choice) [/bjc-r/cur/programming/4-internet/1-number-representation/5-binary-counter.html]
+	resource: Binary Representation [/bjc-de/cur/programming/4-internet/1-number-representation/1-binary.html]
+	resource: Binary Sequences [/bjc-de/cur/programming/4-internet/1-number-representation/2-binary-sequences.html]
+	resource: Hexadecimal Representation [/bjc-de/cur/programming/4-internet/1-number-representation/3-hexadecimal.html]
+	resource: Using Hex [/bjc-de/cur/programming/4-internet/1-number-representation/4-using-hex.html]
+	resource: Binary Timer Snap! Project (Teacher's Choice) [/bjc-de/cur/programming/4-internet/1-number-representation/5-binary-counter.html]
 
-	raw-html: <img class="imageRight" src="/bjc-r/img/4-internet/hierarchical-1.jpg" alt="Address Hierarchy" title="Address Hierarchy" />
+	raw-html: <img class="imageRight" src="/bjc-de/img/4-internet/hierarchical-1.jpg" alt="Address Hierarchy" title="Address Hierarchy" />
 	
 heading: Lab 2: Reliable Communication
-	resource: What Is the Internet? [/bjc-r/cur/programming/4-internet/2-reliable-communication/1-what-is-internet.html]
-	quiz: Network Redundancy [/bjc-r/cur/programming/4-internet/2-reliable-communication/2-network-redundancy.html]
-	quiz: Address Hierarchy [/bjc-r/cur/programming/4-internet/2-reliable-communication/3-address-hierarchy.html]
-	resource: A Brief History of the Internet (Teacher's Choice) [/bjc-r/cur/programming/4-internet/2-reliable-communication/4-internet-history.html]
-	resource: Writing HTML (Teacher's Choice) [/bjc-r/cur/programming/4-internet/2-reliable-communication/5-writing-html.html]
+	resource: What Is the Internet? [/bjc-de/cur/programming/4-internet/2-reliable-communication/1-what-is-internet.html]
+	quiz: Network Redundancy [/bjc-de/cur/programming/4-internet/2-reliable-communication/2-network-redundancy.html]
+	quiz: Address Hierarchy [/bjc-de/cur/programming/4-internet/2-reliable-communication/3-address-hierarchy.html]
+	resource: A Brief History of the Internet (Teacher's Choice) [/bjc-de/cur/programming/4-internet/2-reliable-communication/4-internet-history.html]
+	resource: Writing HTML (Teacher's Choice) [/bjc-de/cur/programming/4-internet/2-reliable-communication/5-writing-html.html]
 
 heading: Lab 3: Communication Protocols
-	resource: Addresses in a Network of Networks: IP [/bjc-r/cur/programming/4-internet/3-communication-protocols/1-ip.html]
-	resource: Reliable Transmission on Unreliable Networks: TCP [/bjc-r/cur/programming/4-internet/3-communication-protocols/2-tcp.html]
-	resource: A Hierarchy of Open Protocols [/bjc-r/cur/programming/4-internet/3-communication-protocols/3-open-protocols.html]
-	resource: Who's In Charge of the Internet?  [/bjc-r/cur/programming/4-internet/3-communication-protocols/4-who-is-in-charge.html]
+	resource: Addresses in a Network of Networks: IP [/bjc-de/cur/programming/4-internet/3-communication-protocols/1-ip.html]
+	resource: Reliable Transmission on Unreliable Networks: TCP [/bjc-de/cur/programming/4-internet/3-communication-protocols/2-tcp.html]
+	resource: A Hierarchy of Open Protocols [/bjc-de/cur/programming/4-internet/3-communication-protocols/3-open-protocols.html]
+	resource: Who's In Charge of the Internet?  [/bjc-de/cur/programming/4-internet/3-communication-protocols/4-who-is-in-charge.html]
 
-	raw-html: <img class="imageRight" src="/bjc-r/img/4-internet/redundant-1.jpg" alt="Network Redundancy" title="Network Redundancy" />
+	raw-html: <img class="imageRight" src="/bjc-de/img/4-internet/redundant-1.jpg" alt="Network Redundancy" title="Network Redundancy" />
 	
 heading: Lab 4: Cybersecurity 
-	quiz: Cybersecurity [/bjc-r/cur/programming/4-internet/4-cybersecurity/1-cybersecurity.html]
-	resource: Cryptosecurity [/bjc-r/cur/programming/4-internet/4-cybersecurity/2-cryptosecurity.html]
-	resource: Caesar Cipher Project (Teacher's Choice) [/bjc-r/cur/programming/4-internet/4-cybersecurity/3-caesar-cipher.html]
+	quiz: Cybersecurity [/bjc-de/cur/programming/4-internet/4-cybersecurity/1-cybersecurity.html]
+	resource: Cryptosecurity [/bjc-de/cur/programming/4-internet/4-cybersecurity/2-cryptosecurity.html]
+	resource: Caesar Cipher Project (Teacher's Choice) [/bjc-de/cur/programming/4-internet/4-cybersecurity/3-caesar-cipher.html]
 	
-	//resource: Cryptography [/bjc-r/cur/programming/4-internet/4-cybersecurity/1-cryptography.html]
-	//resource: Symmetric Encryption [/bjc-r/cur/programming/4-internet/4-cybersecurity/2-symmetric_cryptography.html]
-	//resource: Caesar Cipher Project (Teacher's Choice) [/bjc-r/cur/programming/4-internet/4-cybersecurity/3-caesarcipher.html]
-	//resource: Public Key Encryption [/bjc-r/cur/programming/4-internet/4-cybersecurity/4-asymmetric_cryptography.html]
-	//quiz: Cybersecurity [/bjc-r/cur/programming/4-internet/4-cybersecurity/5-cybersecurity.html]
-	//resource: Who Cares About Encryption? (Teacher's Choice) [/bjc-r/cur/programming/4-internet/4-cybersecurity/6-who-cares-about-encryption.html]
+	//resource: Cryptography [/bjc-de/cur/programming/4-internet/4-cybersecurity/1-cryptography.html]
+	//resource: Symmetric Encryption [/bjc-de/cur/programming/4-internet/4-cybersecurity/2-symmetric_cryptography.html]
+	//resource: Caesar Cipher Project (Teacher's Choice) [/bjc-de/cur/programming/4-internet/4-cybersecurity/3-caesarcipher.html]
+	//resource: Public Key Encryption [/bjc-de/cur/programming/4-internet/4-cybersecurity/4-asymmetric_cryptography.html]
+	//quiz: Cybersecurity [/bjc-de/cur/programming/4-internet/4-cybersecurity/5-cybersecurity.html]
+	//resource: Who Cares About Encryption? (Teacher's Choice) [/bjc-de/cur/programming/4-internet/4-cybersecurity/6-who-cares-about-encryption.html]
 	
 heading: Lab 5: Censorship and Computing around the World
-	resource: Rules for the Internet [/bjc-r/cur/programming/4-internet/5-censorship/1-rules.html]
-	resource: Regulating the Internet [/bjc-r/cur/programming/4-internet/5-censorship/2-regulating-the-internet.html]
-	resource: Censorship [/bjc-r/cur/programming/4-internet/5-censorship/3-censorship.html]
-	resource: Computing Around the World [/bjc-r/cur/programming/4-internet/5-censorship/4-computing-world.html]
+	resource: Rules for the Internet [/bjc-de/cur/programming/4-internet/5-censorship/1-rules.html]
+	resource: Regulating the Internet [/bjc-de/cur/programming/4-internet/5-censorship/2-regulating-the-internet.html]
+	resource: Censorship [/bjc-de/cur/programming/4-internet/5-censorship/3-censorship.html]
+	resource: Computing Around the World [/bjc-de/cur/programming/4-internet/5-censorship/4-computing-world.html]
 
 //heading: Lab 6: Programming with Web Data (all pages ready for review)
-	//group: Reading HTML with Snap<em>!</em> (Teacher's Choice) [/bjc-r/cur/programming/4-internet/6-web-data/1-read-web.html]
-	//group: Web Scraping Techniques (Teacher's Choice) [/bjc-r/cur/programming/4-internet/6-web-data/2-web-scraping-techniques.html] 
-	//group: Weather App Project (Teacher's Choice) [/bjc-r/cur/programming/4-internet/6-web-data/3-weather-app.html] 
+	//group: Reading HTML with Snap<em>!</em> (Teacher's Choice) [/bjc-de/cur/programming/4-internet/6-web-data/1-read-web.html]
+	//group: Web Scraping Techniques (Teacher's Choice) [/bjc-de/cur/programming/4-internet/6-web-data/2-web-scraping-techniques.html] 
+	//group: Weather App Project (Teacher's Choice) [/bjc-de/cur/programming/4-internet/6-web-data/3-weather-app.html] 
 
 		
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
+		<script type="text/javascript" src="/bjc-de/llab/loader.js"></script>
 		<title>Unit 5 Lab 5 Teacher Guide</title>
 	</head>
     
@@ -29,15 +29,15 @@
 		<p>As suggested above, we use proof by contradiction to show that a certain question can't be answered <em>in general:</em> Will a certain computer program, given a certain input, report a result in a finite amount of time?</p>
 		<p>
         	The "in general" part is important. Of course we can answer the question for certain particular programs. This one halts for any input:<br />
-        	<img class="indent" src="/bjc-r/img/5-algorithms/three-fn.png" alt="three(x) reports 3">
+        	<img class="indent" src="/bjc-de/img/5-algorithms/three-fn.png" alt="three(x) reports 3">
         </p>
 		<p>
             This one never halts for any input:<br />
-            <img class="indent" src="/bjc-r/img/5-algorithms/loop-fn.png" width="158" height="137" alt="loop(x): forever [wait 1 secs]">
+            <img class="indent" src="/bjc-de/img/5-algorithms/loop-fn.png" width="158" height="137" alt="loop(x): forever [wait 1 secs]">
         </p>
 		<p>
             And this one halts (reports a value) for any input except 87:<br />
-            <img class="indent" src="/bjc-r/img/5-algorithms/weird-fn.png" width="158" height="222" alt="weird(x): if (x=87) then forever [wait 1 secs]; report 3">
+            <img class="indent" src="/bjc-de/img/5-algorithms/weird-fn.png" width="158" height="222" alt="weird(x): if (x=87) then forever [wait 1 secs]; report 3">
         </p>
 		<p>The question is whether we can devise a test that will tell us whether <em>any</em> given function will report a value for <em>any</em> given input. To make a proof by contradiction, we start by supposing that there is such a <code>halts?</code> function. Then we show that there has to be at least one function, and one input to that function, for which <code>halts?</code> fails: If we call <code>halts?</code> with the function <code>tester</code> as both the function to be tested and the input to give that function, any result reported by <code>halts?</code> will be wrong.</p>
 		<p>Showing that the result has to be wrong involves a case analysis like the ones used to solve the logic puzzles on page 1. Suppose <code>halts?</code> reports <code>True</code>, telling us that <code>tester(tester)</code> succeeds at reporting a value. Then <code>tester</code> takes the first branch of the <code>if</code>, and so it loops forever. (We used <code>repeat until</code> to create the infinite loop, but that's not important; it could just be <code>forever</code> as in the pictures above.) Thus <code>halts?</code> gave the wrong answer. Now suppose instead that <code>halts?</code> reports <code>False</code>, thereby claiming that <code>tester(tester)</code> loops forever. But in that case, <code>tester</code> takes the <code>else</code> branch, and reports <code>True</code>. (Don't be confused; it doesn't matter <em>what</em> value <code>tester</code> reports, just that it reports <em>some</em> value. But it <em>does</em> matter what value <code>halts?</code> reports.)</p>
@@ -50,8 +50,8 @@
 		<div>
 			The 2 lab pages could be split across 2-4 days (<strong>70-140 minutes</strong>). Expected times to complete follow:
 			<ul>
-				<li>30-60 minutes (about 1 class period) on <a href="/bjc-r/cur/programming/5-algorithms/4-unsolvable-undecidable/1-logical-inconsistency.html?topic=nyc_bjc%2F5-algorithms.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">Logical Inconsistency</a></li>
-				<li>40-80 minutes (1-2 class periods) on <a href="/bjc-r/cur/programming/5-algorithms/4-unsolvable-undecidable/2-halting-problem.html?topic=nyc_bjc%2F5-algorithms.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">An Undecidable Problem</a></li>
+				<li>30-60 minutes (about 1 class period) on <a href="/bjc-de/cur/programming/5-algorithms/4-unsolvable-undecidable/1-logical-inconsistency.html?topic=nyc_bjc%2F5-algorithms.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">Logical Inconsistency</a></li>
+				<li>40-80 minutes (1-2 class periods) on <a href="/bjc-de/cur/programming/5-algorithms/4-unsolvable-undecidable/2-halting-problem.html?topic=nyc_bjc%2F5-algorithms.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">An Undecidable Problem</a></li>
 			</ul>
 		</div>        
         
@@ -125,7 +125,7 @@
         <h3>edX BJC Videos:</h3>
         <div class="sidenote">
             <strong>No YouTube access at your school?</strong><br />
-            Try these <a href="/bjc-r/cur/teaching-guide/resources/video-list-scratch.html">Alternate Links</a>.
+            Try these <a href="/bjc-de/cur/teaching-guide/resources/video-list-scratch.html">Alternate Links</a>.
         </div>
         <div>
         	<ul>
@@ -142,7 +142,7 @@
 		<h3>Solutions</h3>
 		<div>
             <ul>
-                <li><strong><a href="/bjc-r/cur/teaching-guide/U5/lab-pages/5b-unsolvable-undecidable-problems-solutions.html">Page 1: Logical Inconsistency.</a></strong></li>
+                <li><strong><a href="/bjc-de/cur/teaching-guide/U5/lab-pages/5b-unsolvable-undecidable-problems-solutions.html">Page 1: Logical Inconsistency.</a></strong></li>
             </ul>
         </div>
 			

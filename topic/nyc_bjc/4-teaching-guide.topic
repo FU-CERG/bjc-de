@@ -18,29 +18,29 @@ h3: Computational Thinking Practices P1, P3, P5, P6
         raw-html:<p>Students learn to identify and describe the <strong>abstractions (P3)</strong> of the Internet, continue to <strong>collaborate (P6)</strong> as they pair program, and <strong>communicate (P5)</strong> as they <strong>connect computing (P1)</strong> to society in the Social Implications labs.</p>
 
 h3: edX BJC Videos
-		raw-html:<p>There are a number of BJC videos from the edX version of the curriculum that are relevant to Unit 4. These are available on the <a href="/bjc-r/cur/teaching-guide/resources/video-list.html">edX BJC Videos</a> page.</p>
+		raw-html:<p>There are a number of BJC videos from the edX version of the curriculum that are relevant to Unit 4. These are available on the <a href="/bjc-de/cur/teaching-guide/resources/video-list.html">edX BJC Videos</a> page.</p>
 
 h3: Assessment: A Divide-And-Conquer Approach
-		raw-html: <p>The Internet is vast and ever-evolving, so it is not an easy task to cover it in a single unit.  A possible approach is a divide-and-conquer class project. Each student, perhaps with a partner, will prepare a 5-minute presentation on a particular topic of interest, drawn from the AP CSP standards.  For more information on this pedagogy <a href="/bjc-r/cur/teaching-guide/U4/assessment/u4-collaborativeproject.html" target="_blank">click here</a>.  </p>	
+		raw-html: <p>The Internet is vast and ever-evolving, so it is not an easy task to cover it in a single unit.  A possible approach is a divide-and-conquer class project. Each student, perhaps with a partner, will prepare a 5-minute presentation on a particular topic of interest, drawn from the AP CSP standards.  For more information on this pedagogy <a href="/bjc-de/cur/teaching-guide/U4/assessment/u4-collaborativeproject.html" target="_blank">click here</a>.  </p>	
 
 h3: Student Labs
-	resource: Lab 1: Number Representation [/bjc-r/cur/teaching-guide/U4/lab-pages/1-number-representation.html]
+	resource: Lab 1: Number Representation [/bjc-de/cur/teaching-guide/U4/lab-pages/1-number-representation.html]
 	raw-html:<ul><li>3-6 days (120-240 minutes) for required pages</li></ul>
-	resource: Lab 2: Reliable Communication [/bjc-r/cur/teaching-guide/U4/lab-pages/2-reliable-communication.html]
+	resource: Lab 2: Reliable Communication [/bjc-de/cur/teaching-guide/U4/lab-pages/2-reliable-communication.html]
 	raw-html:<ul><li>2-3 days (55-110 minutes) for required pages</li></ul>
-	resource: Lab 3: Communication Protocols [/bjc-r/cur/teaching-guide/U4/lab-pages/3-communication-protocols.html]
+	resource: Lab 3: Communication Protocols [/bjc-de/cur/teaching-guide/U4/lab-pages/3-communication-protocols.html]
 	raw-html:<ul><li>2-4 days (60-170 minutes)</li></ul>
-	resource: Lab 4: Cybersecurity [/bjc-r/cur/teaching-guide/U4/lab-pages/4-cybersecurity.html]
+	resource: Lab 4: Cybersecurity [/bjc-de/cur/teaching-guide/U4/lab-pages/4-cybersecurity.html]
 	raw-html:<ul><li>1-3 days (45-90 minutes) for required pages</li></ul>
-	resource: Lab 5: Censorship and Computing around the World [/bjc-r/cur/teaching-guide/U4/lab-pages/5-censorship-and-computing.html]
+	resource: Lab 5: Censorship and Computing around the World [/bjc-de/cur/teaching-guide/U4/lab-pages/5-censorship-and-computing.html]
 	raw-html:<ul><li>3-4 days (150-200 minutes)</li></ul>
 	
-	//resource: Lab 6: Programming with Web Data (Teacher's Choice) [/bjc-r/cur/teaching-guide/U4/lab-pages/6-web-data.html]
+	//resource: Lab 6: Programming with Web Data (Teacher's Choice) [/bjc-de/cur/teaching-guide/U4/lab-pages/6-web-data.html]
 	//raw-html:<ul><li>If used, 4-5 days (185-225 minutes)</li></ul>
 	
-	//resource: Lab 2: GPS Data [/bjc-r/cur/teaching-guide/U4/lab-pages/2-gps-data.html]
+	//resource: Lab 2: GPS Data [/bjc-de/cur/teaching-guide/U4/lab-pages/2-gps-data.html]
 	//raw-html:<ul><li>3-4 days (150-190 minutes)</li></ul>
-	//resource: Lab 8: Innovating for Social Change [/bjc-r/cur/teaching-guide/U4/lab-pages/8-innovating-social-change.html]
+	//resource: Lab 8: Innovating for Social Change [/bjc-de/cur/teaching-guide/U4/lab-pages/8-innovating-social-change.html]
 	//raw-html:<ul><li>3-5 days (150-250 minutes)</li></ul>
 	
 

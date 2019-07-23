@@ -29,12 +29,12 @@
 topicModel = {
     title: 'Topic Title',
     type: 'topic',
-    url: '/bjc-r/...', // File Name Should be from the root of the web server
+    url: '/bjc-de/...', // File Name Should be from the root of the web server
     contents: [
         { // Each of these "objects" would be defined by the type attribute.
             type: 'resource',
             contents: 'Hello',
-            url: '/bjc-r/...'
+            url: '/bjc-de/...'
         },
         "Should super-simple strings be supported?",
         {...}

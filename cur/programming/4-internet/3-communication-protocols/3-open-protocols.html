@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
+		<script type="text/javascript" src="/bjc-de/llab/loader.js"></script>
 		<title>Unit 4 Lab 3: Communication Protocols, Page 3</title>
 	</head>
 
@@ -25,22 +25,22 @@
             6.3.1M Certificate authorities (CAs) issue digital certificates that validate the ownership of encrypted keys used in secured communication and are based on a trust model.<br />
         </div>
         
-        <img class="imageRight" src="/bjc-r/img/icons/take-turns-speaking-mini.gif" alt="Take turns speaking" title="Take turns speaking">
+        <img class="imageRight" src="/bjc-de/img/icons/take-turns-speaking-mini.gif" alt="Take turns speaking" title="Take turns speaking">
         <p>There are billions of devices connected to the Internet, and hundreds of different <em>kinds</em> of devices: laptops, tablets, phones, refrigerators, handheld credit card readers, and so on. How do they all know how to find and talk to each other? <strong>Protocols</strong> (standards) ensure that the variety of devices interact with each other smoothly.</p>
         <p>There are a <em>lot</em> of protocols! The Internet was designed with several layers of <em>abstraction</em> that sort the protocols according to what part of the process they support. </p>
 
 
 		<h3>Internet Abstraction Hierarchy</h3>
         <p>This <em>hierarchy of abstractions</em> manages the complexity of the Internet by hiding the details of lower levels of the system. The highest level of abstraction includes the most general features of the Internet that have to work the same across all devices. At lowers levels of abstraction, things get more device-specific. </p>	
-        <div class="sidenoteBig">Application Layer Examples: browsers use <a href="/bjc-r/cur/programming/4-internet/2-reliable-communication/1-what-is-internet.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">HTTP</a> (HyperText Transfer Protocol) to interpret HTML instructions for page formatting. <a href="/bjc-r/cur/programming/4-internet/2-reliable-communication/3-address-hierarchy.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">DNS</a> (Domain Name System) converts user-friendly web addresses into IP addresses. Your email inbox may  use SMTP (Simple Mail Transfer Protocol) to send  and IMAP (Internet Message Access Protocol) to read  email.</div>									
-        <div class="sidenoteBig">Transport Layer Examples: <a href="/bjc-r/cur/programming/4-internet/3-communication-protocols/2-tcp.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">TCP</a> (Transmission Control Protocol) <em>simulates</em> a reliable, long-term connection between two computers by only displaying data once all packets have arrived. When speed  is more important than accuracy, people use UDP (User Datagram Protocol), such as for  real-time video streaming, where one missed packet doesn't matter much.</div>
-        <div class="sidenoteBig">Internet Layer Examples: Every device on the Internet needs an IP address so other devices can find it.  <a href="/bjc-r/cur/programming/4-internet/3-communication-protocols/1-ip.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">IP</a> (Internet Protocol) addresses are upgrading from IPv4 to IPv6. Routers use Internet layer protocols to detect and work around network congestion.</div>
+        <div class="sidenoteBig">Application Layer Examples: browsers use <a href="/bjc-de/cur/programming/4-internet/2-reliable-communication/1-what-is-internet.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">HTTP</a> (HyperText Transfer Protocol) to interpret HTML instructions for page formatting. <a href="/bjc-de/cur/programming/4-internet/2-reliable-communication/3-address-hierarchy.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">DNS</a> (Domain Name System) converts user-friendly web addresses into IP addresses. Your email inbox may  use SMTP (Simple Mail Transfer Protocol) to send  and IMAP (Internet Message Access Protocol) to read  email.</div>									
+        <div class="sidenoteBig">Transport Layer Examples: <a href="/bjc-de/cur/programming/4-internet/3-communication-protocols/2-tcp.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">TCP</a> (Transmission Control Protocol) <em>simulates</em> a reliable, long-term connection between two computers by only displaying data once all packets have arrived. When speed  is more important than accuracy, people use UDP (User Datagram Protocol), such as for  real-time video streaming, where one missed packet doesn't matter much.</div>
+        <div class="sidenoteBig">Internet Layer Examples: Every device on the Internet needs an IP address so other devices can find it.  <a href="/bjc-de/cur/programming/4-internet/3-communication-protocols/1-ip.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">IP</a> (Internet Protocol) addresses are upgrading from IPv4 to IPv6. Routers use Internet layer protocols to detect and work around network congestion.</div>
         <div class="sidenoteBig">Link Layer Examples: You may connect with an <em>Ethernet</em> cable perhaps a<em>WiFi</em> radio antenna inside the case. Both connects computers to a local network router which then connects to an Internet provider. Cell phones use a longer-range <em>cellular</em> connection to a phone carrier. </div>
         <div>
             <ul>
                 <li><strong>Application Layer Protocols</strong> are the highest level of abstraction because they<em> manage how data is interpreted and displayed</em> to users. These protocols <em>give meaning to the bits</em> sent by lower-level protocols; user and server computers must agree on what the bits mean, and application protocols (like HTTP) offer this.</li>
                 <li><strong>Transport Layer Protocols</strong> manage the <em>breakdown  of a message into packets</em> to be transmitted by lower level protocols and also the  <em>reconstruction of the message from the packets</em> upon arrival.</li>
-				<a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank"><img class="indent" src="/bjc-r/img/4-internet/IP-suite.png" width="300" alt="The Internet protocol suite" title="The Internet protocol suite" /></a>
+				<a href="https://en.wikipedia.org/wiki/Internet_protocol_suite" target="_blank"><img class="indent" src="/bjc-de/img/4-internet/IP-suite.png" width="300" alt="The Internet protocol suite" title="The Internet protocol suite" /></a>
                 <li><strong>Internet Layer Protocols</strong> <em>manage the pathways that the data packets travel</em> across networks. These protocols treat the Internet like one large network even though the physical reality on the lower level is one of many tiny subnetworks.</li>
                 <li><strong>Network Interface Hardware</strong> (Link Layer): All Internet devices connect through a <em>physical interface that uses a protocol to manage the connection</em> to the local network. These local protocols are the least abstract because they deal directly with your physical hardware.</li>
             </ul>
@@ -61,13 +61,13 @@
         
         <div class="forYouToDo" id="first">
             <ol>
-                <li><img class="imageRight" src="/bjc-r/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner" />
+                <li><img class="imageRight" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner" />
 Make sure you understand these important Internet protocols:
                     <ul>
-                        <li><strong><a href="/bjc-r/cur/programming/4-internet/2-reliable-communication/1-what-is-internet.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">HTTP</a></strong>: HyperText Transfer Protocol&mdash;the protocol that your browser uses to <em>access an HTML webpage</em></li>
-                        <li><strong><a href="/bjc-r/cur/programming/4-internet/2-reliable-communication/3-address-hierarchy.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">DNS</a></strong>: Domain Name System&mdash;the hierarchical addressing protocol that is <em>human-readable</em></li>
-						<li><strong><a href="/bjc-r/cur/programming/4-internet/3-communication-protocols/2-tcp.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">TCP</a></strong>: Transmission Control Protocol&mdash;the protocol that <em>assures reliable transmission</em> of data</li>
-						<li><strong><a href="/bjc-r/cur/programming/4-internet/3-communication-protocols/1-ip.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">IP</a></strong>: Internet Protocol&mdash;the hierarchical addressing protocol that <em>manages routing</em> of data between computers; we are upgrading from IPv4 to IPv6 for more addresses</li>
+                        <li><strong><a href="/bjc-de/cur/programming/4-internet/2-reliable-communication/1-what-is-internet.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">HTTP</a></strong>: HyperText Transfer Protocol&mdash;the protocol that your browser uses to <em>access an HTML webpage</em></li>
+                        <li><strong><a href="/bjc-de/cur/programming/4-internet/2-reliable-communication/3-address-hierarchy.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">DNS</a></strong>: Domain Name System&mdash;the hierarchical addressing protocol that is <em>human-readable</em></li>
+						<li><strong><a href="/bjc-de/cur/programming/4-internet/3-communication-protocols/2-tcp.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">TCP</a></strong>: Transmission Control Protocol&mdash;the protocol that <em>assures reliable transmission</em> of data</li>
+						<li><strong><a href="/bjc-de/cur/programming/4-internet/3-communication-protocols/1-ip.html?topic=nyc_bjc%2F4-internet.topic&course=bjc4nyc.html&novideo&noassignment">IP</a></strong>: Internet Protocol&mdash;the hierarchical addressing protocol that <em>manages routing</em> of data between computers; we are upgrading from IPv4 to IPv6 for more addresses</li>
                     </ul>
                 </li>
             </ol>

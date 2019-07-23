@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
+        <script type="text/javascript" src="/bjc-de/llab/loader.js"></script>
 		<title>Unit 3 Lab 3 Teacher Guide</title>
     </head>
     
     <body>
         <h2>Optional Programming Lab 3: Three Key List Operations</h2>
-        <p>Functions that <i>take other functions as input</i> are called <strong>higher order functions</strong>. In  practice, these are often (but not exclusively) used for processing lists, as they are in this unit. <a href="/bjc-r/cur/programming/3-lists/1-introduction-to-lists/1-shopping-list-app.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">In Lab 1</a>, students worked with <code>for each</code> to apply a procedure to each item of a list. Now students focus on three higher order list operations, <code>map</code>, <code>keep</code>, and <code>combine</code>.</p>
+        <p>Functions that <i>take other functions as input</i> are called <strong>higher order functions</strong>. In  practice, these are often (but not exclusively) used for processing lists, as they are in this unit. <a href="/bjc-de/cur/programming/3-lists/1-introduction-to-lists/1-shopping-list-app.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">In Lab 1</a>, students worked with <code>for each</code> to apply a procedure to each item of a list. Now students focus on three higher order list operations, <code>map</code>, <code>keep</code>, and <code>combine</code>.</p>
         <p> <code>For each</code> is a command block that steps through each item in a list to use or make changes to the items. It has an effect, but does not report a value; it's not a function. <code>map</code>, <code>keep</code>, and <code>combine</code> are functions; they report values:</p>
         <div>
             <ul>
@@ -23,10 +23,10 @@
         <div>
 			If used, the 4 lab pages could be split across 4-7 days (<strong>145-290 minutes</strong>). Expected times to complete follow:
 			<ul>
-				<li>20-40 minutes (less than 1 class period) on <a href="/bjc-r/cur/programming/3-lists/3-three-key-list-ops/1-exploring-list-operations.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">Exploring List Operations (Teacher's Choice)</a></li>
-				<li>60-120 minutes (2-3 class periods) on <a href="/bjc-r/cur/programming/3-lists/3-three-key-list-ops/2-map.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">The <code>Map</code> Block (Teacher's Choice)</a></li>
-				<li>40-80 minutes (1-2 class periods) on <a href="/bjc-r/cur/programming/3-lists/3-three-key-list-ops/3-keep.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">The <code>Keep</code> Block (Teacher's Choice)</a></li>
-				<li>25-50 minutes (1-2 class periods) on <a href="/bjc-r/cur/programming/3-lists/3-three-key-list-ops/4-combine.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">The <code>Combine</code> Block (Teacher's Choice)</a></li>
+				<li>20-40 minutes (less than 1 class period) on <a href="/bjc-de/cur/programming/3-lists/3-three-key-list-ops/1-exploring-list-operations.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">Exploring List Operations (Teacher's Choice)</a></li>
+				<li>60-120 minutes (2-3 class periods) on <a href="/bjc-de/cur/programming/3-lists/3-three-key-list-ops/2-map.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">The <code>Map</code> Block (Teacher's Choice)</a></li>
+				<li>40-80 minutes (1-2 class periods) on <a href="/bjc-de/cur/programming/3-lists/3-three-key-list-ops/3-keep.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">The <code>Keep</code> Block (Teacher's Choice)</a></li>
+				<li>25-50 minutes (1-2 class periods) on <a href="/bjc-de/cur/programming/3-lists/3-three-key-list-ops/4-combine.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">The <code>Combine</code> Block (Teacher's Choice)</a></li>
 			</ul>
 		</div>
 		<div class="time">
@@ -109,7 +109,7 @@
                             <ul>
                                 <li>
                                 Create a <code>book</code> <em>constructor</em> that accepts three elements: the title (text string), whether or not it's fiction (boolean), and a number of pages (number).
-                                <img class="indent" src="/bjc-r/img/3-lists/book-constructor.png" alt="book with title: (BJC) fiction? (true) pages: (123) reporting '{BJC, true, 123}'" title="book with title: (BJC) fiction? (true) pages: (123) reporting '{BJC, true, 123}'" />
+                                <img class="indent" src="/bjc-de/img/3-lists/book-constructor.png" alt="book with title: (BJC) fiction? (true) pages: (123) reporting '{BJC, true, 123}'" title="book with title: (BJC) fiction? (true) pages: (123) reporting '{BJC, true, 123}'" />
                                 </li>
                                 <li>Create three <em>selectors</em> <code>title</code>, <code>fiction?</code>, and <code>pages</code> that will report that data for the inputted record.</li>
                             </ul>
@@ -118,7 +118,7 @@
                         <li>Add a button to let the user add a new book to the library.</li>
                         <li>Populate <var>library</var> with at least two fiction titles and at least two nonfiction titles.</li>
                         <li>
-                            <img class="imageRight" src="/bjc-r/img/icons/import-tools.png" alt="Import Tools" title="Import Tools" />
+                            <img class="imageRight" src="/bjc-de/img/icons/import-tools.png" alt="Import Tools" title="Import Tools" />
                             Add a button to allow the user to get a report of all the fiction or nonfiction books on the shelf. (This must use <code>map</code>, <code>keep</code> and/or <code>combine</code>.)
                         </li>
                         <div class="takeItFurther"><a name="further" class="anchor">&nbsp;</a>
@@ -152,7 +152,7 @@
                         <li><strong>Mathematics Note:  Unnamed Functions</strong> One of the most powerful features of languages like <em>Snap!</em> is the ability to use functions without naming them.  So, for example, 
                         
                
-               <img src="/bjc-r/img/3-lists/lambda.png" class="script" alt="item 2 of list block" title="item 2 of list block">          
+               <img src="/bjc-de/img/3-lists/lambda.png" class="script" alt="item 2 of list block" title="item 2 of list block">          
                         
 is the <em>Snap!</em> code for "the function that adds 4 and then divides by 3."  If you replace the blank slot by 8 the operator will report 4.     Of course, you <em>could</em> make a  reporter and give it a name, modeling the mathematical function defined by <span class="katex-block">f(x) = \frac{x+4} 3 </span>   But it's often useful to use a function as <em>just one more piece of data</em>, like a list or a number.  Just as you don't need to name a list  in order to input it into a block, you don't need to name a function to input it into, say, <code>map</code>.  This idea of raising an operation (in this case a function) to the status of an object that can be manipulated is an engine that drives progress in modern mathematics, and the fact that you can model this in <em>Snap!</em> gives the language an expressive power that doesn't exist in older programming languages.
                          

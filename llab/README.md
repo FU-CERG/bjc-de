@@ -7,4 +7,4 @@ LLAB is a simple frame for building a course website for a sequence of activitie
 
 We have an example repository in [bjc-r][bjcr]. For all comments or issues with the BJC curriculum, please see the BJC repo.
 
-[bjcr]: https://github.com/beautyjoy/bjc-r/
+[bjcr]: https://github.com/beautyjoy/bjc-de/

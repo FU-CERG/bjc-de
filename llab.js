@@ -14,7 +14,7 @@ if (typeof llab === 'undefined') {
 
 // if the website isn't at the root of the server, add the path here.
 // starting / means this is an absolute link, yo
-llab.rootURL = "/bjc-r/";
+llab.rootURL = "/bjc-de/";
 
 
 // change if llab scripts are installed in a different path *within* rootURL.
@@ -29,10 +29,10 @@ llab.llab_path = llab.rootURL + llab.install_directory;
 // llab.paths.css_files.push('css/3.3.0/bootstrap-theme.min.css');
 llab.paths.css_files.push('css/3.3.0/bootstrap-compiled.min.css');
 llab.paths.css_files.push('css/default.css');
-// In /bjc-r/css
+// In /bjc-de/css
 // new CSS added for new mainpage only, by Mary 1/26/16
 var url = window.location.pathname;
-if (url.slice(url.search("/bjc-r/")) == "/bjc-r/" || url == "/") {
+if (url.slice(url.search("/bjc-de/")) == "/bjc-de/" || url == "/") {
     llab.paths.css_files.push('../css/bjc-mainpage.css');
 } else {
 	llab.paths.css_files.push('../css/bjc.css');
