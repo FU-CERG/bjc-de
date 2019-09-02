@@ -12,31 +12,42 @@ big-idea: die Auswirkungen der Technologie auf unsere Kultur und Sicherheit anal
 
 	raw-html: <div class="todo"><ul><li>MF: muss mehr <img class="inline" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /> Nachrichten (und Dialoge).</li><li><li>Überlegen Sie es mit Ideen von <a href="https://docs.google.com/document/d/d/1JCw-l41ihbD2CFf_fM-sFmJpsvKHLYwB3nYApBpmrc/edit#heading=h.v0buedmnov8e" target="_blank">Zeph Grunschlag in NY</a></li><li>Distinguish white <span class="snap">snap</span>Boxen, in die Sie tippen können, aus blockfarbenen Dropdowns, in die Sie Variablen ziehen müssen.</li><li><li>Eine reduzierte Präsentation von Lab 4 von Cindy: <a href="/bjc-de/cur/programming/1-introduction/reduction-(pdf)-lab4-from-Cindy/BJC-U1L4-RashiVersion.pdf" target="_blank">BJC-U1L4-RashiVersion.pdf</a>.</li><li><a href="https://docs.google.com/document/d/1_SWRhC3rT4hNSAY_GshQIngudw77TUHhme28ER3ClKk/edit" target="_blank">U1 Feedback 2015-04-29</a></li></ul></ul></Div>
 
-	raw-html: <div style="float:right;"><img class="imageRight" src="/bjc-de/img/icons/work-with-a-partner.png" alt="Work with a Partner" title="Work with a Partner"/><br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Gespräch mit Ihrem Partner" title="Gespräch mit Ihrem Partner" /><br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /><!-- <br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/talk-with-mit-anderem-pair.png" alt="Mit einem anderen Paar sprechen" title="Mit einem anderen Paar sprechen" /><br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/share-your-work.png" alt="Share Your Work" title="Share Your Work" />--></div>
-in der Richtung: Programmierlabor 1: Erstellen einer App
-	Ressource: Erstellen eines Kontos und Einloggen [/bjc-de/cur/programming/1-introduction/1-building-an-app/1-creating-a-snap-account.html]]
+	raw-html: <div style="float:right;"><img class="imageRight" src="/bjc-de/img/icons/work-with-a-partner.png" alt="Work with a Partner" title="Work with a Partner"/><br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Gespräch mit Ihrem Partner" title="Gespräch mit Ihrem Partner" /><br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /><!-- <br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/talk-with-another-pair.png" alt="Mit einem anderen Paar sprechen" title="Mit einem anderen Paar sprechen" /><br clear="all" /><img class="imageRight" src="/bjc-de/img/icons/share-your-work.png" alt="Share Your Work" title="Share Your Work" />--></div>
+heading: Programmieraufgabe 1: Erstellen einer App
+	Ressource: Erstellen eines Kontos und Einloggen [/bjc-de/cur/programming/1-introduction/1-building-an-app/1-creating-a-snap-account.html]
 	Ressource: Starten Sie Ihr erstes Snap<em>!</em> App [/bjc-de/cur/programming/1-introduction/1-building-an-app/2-start-your-first-snap-app.html]
-	Ressource: Paar-Programmier-Swap [/bjc-de/cur/programmierung/1-Einführung/1-Gebäude-app/3-pair-programmierung-swap.html]]
-	Ressource: Mit dem <code>Random</code> Block [/bjc-de/cur/programming/1-introduction/1-building-an-app/4-using the-random-block.html]
-	Ressource: Speichern und Öffnen von Projekten[/bjc-de/cur/programming/1-Einführung/1-Gebäude einer App/5-saving-in-snap.html]]
-	Ressource: Fertigstellung Ihres ersten Snaps<em>!</em> App [/bjc-de/cur/programming/1-introduction/1-building-an-app/6-finish your-first-snap-app.html]]
-	Ressource: Teilen Ihrer App [/bjc-de/cur/programming/1-Einführung/1-Gebäude-Erstellung einer App/7-Laden-Mobilgerät.html]]
+	Ressource: Paarweiser Programmiererwechsel [/bjc-de/cur/programming/1-Introduction/1-building-an-app/3-pair-programmierung-swap.html]
+	Ressource: Benutzen des <code>Random</code> Blocks [/bjc-de/cur/programming/1-introduction/1-building-an-app/4-using the-random-block.html]
+	Ressource: Speichern und Öffnen von Projekten[/bjc-de/cur/programming/1-introduction/1-building-an-app/5-saving-in-snap.html]
+	Ressource: Fertigstellung Ihrer ersten Snap<em>!</em> App [/bjc-de/cur/programming/1-introduction/1-building-an-app/6-finish your-first-snap-app.html]
+	Ressource: Teilen Ihrer App [/bjc-de/cur/programming/1-introduction/1-building-an-app/7-loading-mobile-device.html]
 
 	raw-html: <img class="imageRight" src="/bjc-de/img/1-introduction/draw-square.png" alt="pen down, repeat 4 (move 50 steps, turn CW 90 degrees)" title="pen down, repeat 4 (move 50 steps, turn CW 90 degrees)". />
 
-in der Richtung: Programmierlabor 2: Sprite-Zeichnung und Interaktion
-	Ressource: Zeichnen und Bewegen [/bjc-de/cur/programming/1-Einführung/2-Zeichnungsinteraktion/1-explorieren-snap-drawing-motion.html]]
+heading: Programmieraufgabe 2: Sprite-Zeichnung und Interaktion
+	Ressource: Zeichnen und Bewegen [/bjc-de/cur/programming/1-introduction/2-drawing-interaction/1-exploring-snap-drawing-motion.html]
 	Ressource: Programmieren eines Sprites, um einer Bewegung zu folgen[/bjc-de/cur/programming/1-introduction/2-drawing-interaction/2-following-sprites.html]]
-	Ressource: Sprite-Interaktion [/bjc-de/cur/programming/1-Einführung/2-Zeichnungsinteraktion/3-Sprite-Interaktion.html]]
-	Ressource: Schachtelungswiederholungen (nach Wahl des Lehrers) [/bjc-de/cur/programmierung/1-Einführung/2-Zeichnungsinteraktion/4-Nesting-Wiederholungen.html]]
+	Ressource: Sprite-Interaktion [/bjc-de/cur/programming/1-introduction/2-drawing-interaction/3-sprite-interaction.html]
+	Ressource: Schachtelungswiederholungen (Entscheidung des Lehrers) [/bjc-de/cur/programming/1-introduction/2-drawing-interaction/4-nesting-repeats.html]
 
-in der Richtung: Programmierlabor 3: Erstellen eigener Blöcke
+heading: Programmieraufgabe 3: Erstellen eigener Blöcke
  	raw-html: <img class="imageRight noshadow" src="/bjc-de/img/1-introduction/Simpler-TicTacToe-video.gif" width="312" alt="Tic Tac Toe Video">
-	Ressource: Entwerfen von benutzerdefinierten Blöcken [/bjc-de/cur/programming/1-Einführung/3-Gebäudebausteine/1-custom-blocks.html]
+	Ressource: Entwerfen von benutzerdefinierten Blöcken [/bjc-de/cur/programming/1-introduction/3-building-blocks/1-custom-blocks.html]
 	Ressource: Ihrem Block eine Eingabevariable geben [/bjc-de/cur/programming/1-introduction/3-building-blocks/2-adding-an-input.html]
-	Ressource: Der <code>Für</code> Block [/bjc-de/cur/programmierung/1-introduction/3-building-blocks/3-the-for-block.html]
-	Ressource: Spielen mit dem <code>Für</code> Block [/bjc-de/cur/programming/1-introduction/3-building-blocks/4-playing-with-the-for-block.html]
+	Ressource: Der <code>For</code> Block [/bjc-de/cur/Programming/1-introduction/3-building-blocks/3-the-for-block.html]
+	Ressource: Spielen mit dem <code>For</code> Block [/bjc-de/cur/programming/1-introduction/3-building-blocks/4-playing-with-the-for-block.html]
 
-in der Richtung: Programmierlabor 4: Erstellen von Rastern für Spiele
-	Ressource: Tic Tac Toe und andere Brettspiele bauen [/bjc-de/cur/programming/1-Einführung/4-Gitter für Spiele/1-Gebäude-tic-tac-toe.html]]
-	Ressource: Ausdrücke und Operationen <!--(Einschließlich <code>Mod</code>)--> [/bjc-de/cur/prog
+heading: Programmieraufgabe 4: Erstellen von Rastern für Spiele
+	Ressource: Tic Tac Toe und andere Brettspiele bauen [/bjc-de/cur/programming/1-introduction/4-grids-for-games/1-building-tic-tac-toe.html]
+	Ressource: Ausdrücke und Operationen <!--(Einschließlich <code>Mod</code>)--> [/bjc-de/cur/programming/1-introduction/4-grids-for-games/2-computer-operations.html]
+
+	raw-html:<div class="todo"><div class="sidenoteBig">The quiz symbol, <img class="inline" style="padding: 1px;" src="/bjc-de/llab/img/multiplechoice16.png" alt="multiple choice icon" title="multiple choice icon" />, indicates that this page includes an online quiz to help you check your understanding.</div>Temporary Hodgepodge: <ul><li><a href="/bjc-de/cur/programming/1-introduction/temp-hodgepodge/5-random-self-check.html"><code>Random</code> Block Self Check</a></li><li><a href="/bjc-de/cur/programming/1-introduction/temp-hodgepodge/3-control-commands/1-the-repeat-block.html">The Real Value of the <code>Repeat</code> Block</a></li><li><a href="/bjc-de/cur/programming/1-introduction/temp-hodgepodge/2-drawing-communication/4-drawing-two-sprites.html">Drawing with Two Sprites</a></li><li><a href="/bjc-de/cur/programming/1-introduction/temp-hodgepodge/2-drawing-communication/5-more-drawing-interaction.html">More Sprite Drawing and Interaction</a></li><li><a href="/bjc-de/cur/programming/1-introduction/temp-hodgepodge/3-building-blocks/3-debugging-custom-blocks.html">Debugging Custom Blocks</a></li><li><a href="/bjc-de/cur/programming/1-introduction/temp-hodgepodge/5-block-types-calculations/1-sprite-position-direction.html">Sprite Position and Direction</a></li><li><a href="/bjc-de/cur/programming/1-introduction/temp-hodgepodge/3-building-blocks/4-building-blocks-within-blocks.html">Using Blocks within Blocks</a></li></div>
+
+heading: Soziale Auswirkungen Aufgabe 5: Explosion von Bits; Spiele und Gewalt
+	Ressource: Sie und Technologie [/bjc-de/cur/programming/1-introduction/5-intro-bits-games/1-getting-started.html]
+	Ressource: Computerinnovationen[/bjc-de/cur/programming/1-introduction/5-intro-bits-games/2-what-are-some-social-implications.html]
+	Ressource: Tanya Rider's Story [/bjc-de/cur/programming/1-introduction/5-intro-bits-games/3-tanya-rider.html]
+	Ressource: Tragen gewalttätige Videospiele zur Gewalt von Jugendlichen bei? [/bjc-de/cur/programming/1-introduction/5-intro-bits-games/4-violent-video-games.html]
+	Ressource: Ist die Technologie gut oder schlecht? [/bjc-de/cur/programming/1-introduction/5-intro-bits-games/5-good-or-bad.html]
+
+}
