@@ -6,31 +6,31 @@
 		<script type="text/javascript" src="/bjc-de/utilities/gifffer.min.js"></script>
         <script type="text/javascript">window.onload = function() {Gifffer();}</script>
         <link rel="stylesheet" type="text/css" href="/bjc-de/css/bjc-gifffer.css">
-        <title>Unit 1 Lab 1: Building an App, Page 2</title>
+        <title>Lektion 1 Programmieraufgabe 1: Erstellen einer App (2/7)</title>
 	</head>
 
 	<body>
-        <h2>Starting Your First Snap<em>!</em> App</h2>
+        <h2>Starte deine erste Snap<em>!</em> App</h2>
 		<img class="imageLeft" src="/bjc-de/img/icons/work-with-a-partner.png" alt="Work with a Partner" title="Work with a Partner" />
-        <p>You and a partner will work together on one computer to program a game you can run on your phones. The point of the game is for you to click on Alonzo as much as you can. Alonzo makes it harder by moving randomly around the screen.</p>
-		  <!-- You will take turns being  the <em>driver, </em>the one with hands on the mouse and keyboard, being the <em>navigator, </em>reading the lab instructions, watching your partner drive, and making suggestions about the next step. You'll swap jobs frequently, so it doesn't matter who navigates first. --> 
-		<p>It doesn't matter which of you is logged in. You'll learn how to share the project with the other partner in a few pages.</p>
-        
-		<div class="forYouToDo" id="first"> 
-        	<div class="sidenote"> This is Alonzo. <br /> <img class="imageRight noshadow" src="/bjc-de/img/1-introduction/alonzo-flip.gif" alt="Alonzo sprite turning around" title="Alonzo sprite turning around" /> </div>
+        <p>Du und ein Partner werden zusammen an einem Computer arbeiten. Ihr programmiert gemeinsam ein Spiel, welches auf euren Handys ausgeführt werden kann. Das Prinzip des Spiels ist Alonzo so häufig wie möglich anzuklicken. Alonzo macht es aber schwieriger, da er sich zufällig auf dem Bildschirm bewegt.</p>
+		  <!-- You will take turns being  the <em>driver, </em>the one with hands on the mouse and keyboard, being the <em>navigator, </em>reading the lab instructions, watching your partner drive, and making suggestions about the next step. You'll swap jobs frequently, so it doesn't matter who navigates first. -->
+		<p>Es spielt keine Rolle wer von euch eingeloggt ist. Ihr werdet in ein paar Seiten lernen wie ihr Projekte mit eurem Partner teilen könnt.</p>
+
+		<div class="forYouToDo" id="first">
+        	<div class="sidenote"> Das ist Alonzo. <br /> <img class="imageRight noshadow" src="/bjc-de/img/1-introduction/alonzo-flip.gif" alt="Alonzo sprite turning around" title="Alonzo sprite turning around" /> </div>
         	<ol>
-				<li> 
-					Run Snap<em>!</em> in a separate window (or tab).
-                    
+				<li>
+					Starte Snap<em>!</em> in einem weiteren Fenster (oder Tab).
+
                 </li>
                 <li>
-                    Create two "Alonzo" costumes for the sprite. You can follow these instructions or watch the animation below:
+                    Erstelle zwei "Alonzo" Kostüme für den Sprite. Du kannst diesen Anweidungen folgen oder die Animation (unten) anschauen:
                       <ol>
-                        <li>Go to the <img src="/bjc-de/img/1-introduction/file_button.png" style="height:1.6em;" alt="File button"/> menu and select "Costumes...". Choose "Alonzo". (If you don't see "Costumes..." click the sprite thumbnail image in the lower right and try again.)</li>
-                   		<li>Right-click (on a Mac, control-click) the Alonzo costume <em>in the gray costume area</em> (not on the white stage) and select "duplicate." </li>
+                        <li>Gehe zu dem <img src="/bjc-de/img/1-introduction/file_button.png" style="height:1.6em;" alt="File button"/> Menü, klicke auf "Kostüme..." aus und wähle "Alonzo" aus. (Falls ihr "Kostüme..." nicht seht wählt ihr das Sprite-Vorschaubild rechts unten und versucht es erneut)</li>
+                   		<li>Rechstklick (auf einem Mac, control-Klick) auf das Alonzo Kostüm <em>in dem grauen Kostümbereich</em> (nicht auf der weißen Bühne) und wählt "Duplizieren" aus. </li>
                         <li>
-                            Then, right-click (control-click) the new costume, select "edit,"  and click the "flip &xharr;" button. <br />
-                            Then, click "OK."
+                            Dann Rechtsklick (control-Klick) auf das neue Kostüm und wählt "Bearbeiten" aus und klickt auf den "flip &xharr;" Knopf. <br />
+                            Dann auf "OK" klicken.
                         </li>
                     </ol>
                   <img data-gifffer="/bjc-de/img/1-introduction/alonzo-costume.gif" alt="Creating two Alonzo costumes" title="Creating two Alonzo costumes" />
@@ -40,21 +40,21 @@
                     <p>
                         <div class="sidenoteBig">
                             <img class="imageCenter" src="/bjc-de/img/1-introduction/motion-palette-categories.jpg" alt="Motion palette categories: Motion, Looks, Sound, Pen, Control, Sensing, Operators, and Variables" title="Motion palette categories: Motion, Looks, Sound, Pen, Control, Sensing, Operators, and Variables" /><br />
-                            Find blocks in palettes with matching color: purple for Looks, yellow for Control, etc.
+                            Finde Blöcke in der Palette besser durch passende Farben: lila für Aussehen, gelb für Steuerung, etc.
                         </div>
-                    	To program the sprite to change costumes when it is clicked:
-                        <ol> <li> click the "Scripts" tab above the gray costume area, </li> <li> drag blocks into it to build this script: <br />
+                    	Um das Sprite so zu programmieren, dass es die Kostüme wechselt, wenn es angeklickt wird:
+                        <ol> <li> Klicke auf den "Skript"-Tab über dem grauen Kostümbereich, </li> <li> und setze Blöcke dort hinein um das Skript zu erstellen: <br />
                         <img class="indent" src="/bjc-de/img/1-introduction/when-I-am-clicked-next-costume.png" alt="when I am (clicked), next costume" title="when I am (clicked), next costume" /> </li> </ol>
                     </p>
-					<div class="endnote">Drag one block underneath another to snap them together. The white bar shows where the blocks will snap together if you unclick the mouse.</div>
-                    <p> This animation shows where to find the blocks and how to snap them together: <br />
+					<div class="endnote">Setze einen Block unter einen anderen, um diese Blöcke zu verbinden. Die weiße kräftige Linie zeigt wo die Blöcke verbunden werden, wenn du die Maus los lässt.</div>
+                    <p>Diese Animation zeigt wo die Blöcke zu finden sind und wie sie verbunden werden: <br />
                     	<img data-gifffer="/bjc-de/img/1-introduction/alonzo-script.gif" alt="Creating the turn Alonzo script" title="Creating the turn Alonzo script" />
                     </p>
                 </li>
-                <li>Click <em>on Alonzo</em> on the white stage. If your script works, Alonzo should face the other way.</li>
+                <li>Klicke <em>auf Alonzo</em> auf der weißen Bühne. Wenn dein Skript funktioniert, sollte Alonzo in die entgegengesetze Richtung gucken.</li>
             </ol>
         </div>
-        
+
 
 	</body>
 </html>
