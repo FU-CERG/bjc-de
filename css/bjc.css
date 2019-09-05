@@ -256,7 +256,7 @@ img.noshadow {
   margin-bottom: .5em;
 }
 
-.ifTime:before {content: "If There Is Time...";}
+.ifTime:before {content: "Wenn noch Zeit ist...";}
 
 .ifTimeHide:before {content: "";}
 
@@ -297,7 +297,7 @@ img.noshadow {
   margin-right: auto;
   }
 
-.takeItFurther:before {  content: "Take It Further (Extension Activities)";}
+.takeItFurther:before {  content: "Mach weiter (Vertiefungsaufgabe)";}
 
 .takeNote, endHOM {
   background-color: #fcc589;
