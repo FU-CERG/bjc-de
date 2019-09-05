@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /** Basic HTML **/
-.todo, .comment, .commentBig { 
+.todo, .comment, .commentBig {
   /*display: none;*/
 }
 
@@ -19,7 +19,7 @@ body { /* Added 12/15/16 by Mary Fries to provide more screen real estate.*/
   width: 100%;
   max-width: none;
 }
-  
+
 .byte td {
 	width:50px;
 	text-align: center;
@@ -92,7 +92,7 @@ table.remainders {float:left; margin-right:100px;}
 .commentBig {  width: 40%; }
 
 code, var {
-  font-family: courier; 
+  font-family: courier;
   font-size: 1.2em;
   padding: 2px;
 }
@@ -137,7 +137,7 @@ var {
   clear:both;
   text-indent: 0em;
 }
-	
+
 .sidenote { /* added by Mary Fries on 3/10/15 based on http://hartshorne.ca/2005/07/27/footnotes_v_sidenotes/ */
   font-size: .9em;
   float: right;
@@ -246,7 +246,7 @@ img.noshadow {
   margin-bottom: .5em;
 }
 
-.forYouToDo#first:before {content: "For You To Do";}
+.forYouToDo#first:before {content: "Für dich zu tun";}
 
 .ifTime {
   background-color: #cce4f6; /*#d2e3be; /* #edf4e6; */
@@ -280,19 +280,19 @@ img.noshadow {
   text-align: center;
 }
 
-.dialogue > div > span:not(.katex) {  
-  font-weight: bold; 
+.dialogue > div > span:not(.katex) {
+  font-weight: bold;
   float: left;
-  width: 4em; 
+  width: 4em;
 }
 
-.dialogue > div > span.long:not(.katex) {  
-  width: 9em; 
+.dialogue > div > span.long:not(.katex) {
+  width: 9em;
 }
 
 .takeItFurther {
-  background-color: #e4cde3; 
-  width: 90%;  
+  background-color: #e4cde3;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   }
@@ -325,7 +325,7 @@ div.saveAs img {
 }
 
 div.saveAs span.text {
-  position: absolute; 
+  position: absolute;
   margin-left: 182px;/*19.7em;*/
   padding-top: 1.05em;
   z-index:2;
@@ -333,7 +333,7 @@ div.saveAs span.text {
 }
 
 div.newProject span.text {
-  position: absolute; 
+  position: absolute;
   margin-left: 323px;/*19.7em;*/
   padding-top: 1.05em;
   z-index:2;
@@ -350,7 +350,7 @@ span.big {
 }
 
 .block {
-  height: 2em; 
+  height: 2em;
   padding: 0px;
 }
 
@@ -403,8 +403,8 @@ div.task {font-size:large;padding-top: 10px;}
 
 /* TG Features*/
 .time {
-  background-color: #fcc589; 
-  width: 90%;  
+  background-color: #fcc589;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   }
@@ -413,8 +413,8 @@ div.task {font-size:large;padding-top: 10px;}
 
 /* Compare Page Styles */
 div.CSPpeach, div.visualgreen, div.visualcyan, div.visualpurple, div.visualyellow, div.visualsalmon, div.socialorange {
-	padding:25px; 
-	border-radius: 25px; 
+	padding:25px;
+	border-radius: 25px;
 	margin-bottom:10px;
 }
 
@@ -445,17 +445,17 @@ a.blbtn {
 	margin-bottom: 0;
 	font-size: 14px;
 	font-weight: normal;
-	line-height: 1.428571429; 
-	/* text-align: center; */ 
-	/* white-space: nowrap; */ 
-	/* vertical-align: middle; */ 
+	line-height: 1.428571429;
+	/* text-align: center; */
+	/* white-space: nowrap; */
+	/* vertical-align: middle; */
 	/* cursor: pointer; */
 	border: 1px solid transparent;
-	border-radius: 4px; 
-	/* -webkit-user-select: none; */ 
-	/* -moz-user-select: none; */ 
-	/* -ms-user-select: none; */ 
-	/* -o-user-select: none; */ 
+	border-radius: 4px;
+	/* -webkit-user-select: none; */
+	/* -moz-user-select: none; */
+	/* -ms-user-select: none; */
+	/* -o-user-select: none; */
 	/* user-select: none; */
 }
 a.blbtn:hover {
@@ -468,13 +468,13 @@ a.blbtn:visited {
 /* edX BJC Videos */
 
 table.videos {
-	border: 1px solid black; 
+	border: 1px solid black;
 }
 table.videos th {
 	font-weight: bold;
 }
 table.videos td {
 	padding: 5px;
-	border-right: 1px solid black; 
-	border-left: 1px solid black; 
+	border-right: 1px solid black;
+	border-left: 1px solid black;
 }
