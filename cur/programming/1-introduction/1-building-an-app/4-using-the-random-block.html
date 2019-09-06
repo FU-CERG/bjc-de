@@ -6,53 +6,41 @@
 		<script type="text/javascript" src="/bjc-de/utilities/gifffer.min.js"></script>
         <script type="text/javascript">window.onload = function() {Gifffer();}</script>
         <link rel="stylesheet" type="text/css" href="/bjc-de/css/bjc-gifffer.css">
-		<title>Unit 1 Lab 1: Building an App, Page 4</title>
+		<title>Lektion 1 Programmieraufgabe 1: Erstellen einer App (4/7)</title>
 	</head>
 
 	<body>
-		<h2>Using the <code>Random</code> Block</h2>
-    	<div class="todo">
-			<ul>
-                <li>GH Feedback 9/1/15: The yellow box with the grid was confusing for students. They weren't sure what to do, or if they should make their screen look like the grid. A bit more scaffolding in the "make Alonso move to a random position..." section would also have been helpful. Lots of students had questions.<ul><li>I don't know what to do about this, but I made a few little changes. --MF</li></ul></li>
-            </ul>
-        </div>
-        
-        <p>Next, you'll add blocks so that every time Alonzo is clicked,  he moves to a random position on the stage. </p>
+		<h2>Benutzen des <code>Random</code> Blocks</h2>
+
+        <p>Als nächstes werdet ihr Blöcke hinzufügen, sodass sich Alonzo bei jedem Klick auf ihn zu einer zufälligen Position auf der weißen Bühne bewegt.</p>
 		<div class="forYouToDo" id="first">
 			<ol>
-			  <li>Find the <img class="inline" src="/bjc-de/img/blocks/pick-random-1-to-10.png" alt="pick random (1) to (10)" title="pick random (1) to (10)" /> block in the green Operators palette, and click it several times to try it out.</li>
-                <li><img class="inline" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner" /> What values did the <code>random</code> block report? </li>
-        <!-- <p>
-        	Oval-shaped blocks like <img src="/bjc-de/img/blocks/pick-random-empty-args.png" alt="pick random () to ()" title="pick random () to ()" />  report  values. They can be used as inputs to other blocks.  To use an oval-shaped block that way, you can drag it into the blank input slot in another block, like this: <br />
-        	<div class="comment">You've already told us, above. I've cut it considerably but this still feels a bit like talking down to the kids. It feels too late to change for this release, but this is really not writing to the spirit of <em>trying </em>things, building an app, and learning from that experience. Too much <em>explaining</em> too early. There's a whole year for that.</div> 
-            Paul, I cut the following in response to your comment: The <img class="inline" src="/bjc-de/img/1-introduction/pick-random--10-to-20.png" alt="pick random (-10) to (20)" title="pick random (-10) to (20)" /> block generates a random number ranging from -10 through 20.
-            
-
-		</p> -->
+			  <li>Finde die <img class="inline" src="/bjc-de/img/blocks/pick-random-1-to-10.png" alt="pick random (1) to (10)" title="pick random (1) to (10)" /> Blöcke in der grünen Palette und klickt sie mehrere Male an.</li>
+                <li><img class="inline" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner" /> Welche Werte gibt der <code>random</code> Block zurück? </li>
 
 				<li>
-                	Add a line of code so that every time Alonzo is clicked, he not only turns, but also moves to a random position. 
+                	Füge eine Code-Zeile hinzu, sodass sich bei einem Klick auf Alonzo er nicht nur dreht sondern auch zu einer zufälligen Position auf der Bühne bewegt.
                     <ul>
-                    	<li>Use two <img src="/bjc-de/img/blocks/pick-random-empty-args.png" alt="pick random () to ()" title="pick random () to ()" /> blocks and one <img src="/bjc-de/img/blocks/go-to-x-y-0-0.png" alt="go to x=0 y=0" title="go to x=0 y=0"/> block together at the end of your script. The animation below shows how to snap these together, but you will need to do more than it shows.</li>
-                        <li>Make Alonzo move to a random position between -190 and 190 in the <em>x</em> direction and between -130 and 130 in the <em>y</em> direction.</li>
+                    	<li>Verwende zwei <img src="/bjc-de/img/blocks/pick-random-empty-args.png" alt="pick random () to ()" title="pick random () to ()" /> Blöcke und einen <img src="/bjc-de/img/blocks/go-to-x-y-0-0.png" alt="go to x=0 y=0" title="go to x=0 y=0"/> Block zusammen am Ende eures Skriptes. Die Animation unten zeigt wie diese Blöcke verknüpft werden, aber es muss mehr getan werden als dargestellt ist.</li>
+                        <li>Lasse Alonzo sich zu einer zufälligen Position zwsichen -190 und 190 in der <em>x</em> Richtung und zwischen -130 und 130 in der <em>y</em> Richtungs bewegen.</li>
                     </ul><br />
                     <img class="indent" data-gifffer="/bjc-de/img/1-introduction/alonzo-go-to-random.gif" alt="Placing random block in goto block" title="Placing random block in goto block" />
                     <div class="endnote">
-                       <p>Right now, the Snap<em>!</em> stage (the white rectangle where sprites act out their scripts) doesn't show axes or grid lines, but locations on it are still specified by coordinates. The center of the stage is (0, 0), and the stage runs from <em>x</em> = -240 to <em>x</em> = 240 and from <em>y</em> = -180 to <em>y</em> = 180.</p> 
-                       <p><strong>Why limit Alonzo's moves between -190 and 190 in the <em>x</em> direction and between -130 and 130 in the <em>y</em> direction?</strong> So that he stays completely visible on the stage.</p>
+                       <p>Die Snap<em>!</em>Bühne (Das weiße Rechteck, in dem die Sprites ihr Skript ausführen) zeigt keine Achsen oder Kästchen, aber die Positionen sind trotzdem als Koordinaten definiert. Die Mitte der Bühne ist (0, 0) und die Bühne geht von <em>x</em> = -240 bis <em>x</em> = 240 und von <em>y</em> = -180 bis <em>y</em> = 180.</p>
+                       <p><strong>Warum kann sich Alonzo nur zwischen -190 und 190 in der <em>x</em> Richtung und zwischen -130 und 130 in der <em>y</em> Richtung bewegen?</strong> Weil er dadurch immer komplett auf der Bühne sichtbar ist.</p>
                     </div>
-                    
-				</li>	   
+
+				</li>
                 <li>
-                	Click on Alonzo. If your script works, Alonzo should face the other way <em>and</em> move to a random spot on the stage.	</li>
+                	Klicke auf Alonzo. Wenn das Skript funktioniert, wird Alonzo die Richtung wechseln <em>und</em> bewegt sich auf der Bühne zu einer zufälligen Position.	</li>
 			</ol>
 	    </div>
         <div class="todo"> THE FOLLOWING WAS REMOVED BECAUSE IT IS TOO MUCH TOO SOON, BUT KEPT VISIBLE, IN THIS COMMENT, SO THAT WE CAN USE IT SOMEWHERE. <div class="endnote">
-                        
+
                         <img class="imageLeft" src="/bjc-de/img/1-introduction/snap-coord-grid.png" alt="Coordinate Grid" title="Coordinate Grid" />
-                        <p>The Snap<em>!</em> stage (the white rectangle where sprites act out their scripts) has coordinates. The <em>x</em> axis shows from -240 to 240, and the <em>y</em> axis shows from -180 to 180.</p>
-                        <p>You don't have to make your stage look like this picture. But if you want to, click the Stage thumbnail picture in the lower right, choose "Backgrounds..." from the Snap<em>!</em> file menu, and import "XY Grid". Then, turn on reporter watchers for <var>x position</var>, <var>y position</var>, and <var>direction</var> by clicking the checkboxes beside them in the blue Motion palette on the left.</p>
-                        <p>On this page, we let Alonzo move only between -190 and 190 in the <em>x</em> direction and between -130 and 130 in the <em>y</em> direction so he doesn't go off the edges of the stage.</p>
+                        <p>Die Snap<em>!</em> Bühne (Das weiße Rechteck, in dem die Sprites ihr Skript ausführen) hat Koordinaten. Die <em>x</em> Achse geht von -240 bis 240, und die <em>y</em> Achse von -180 bis 180.</p>
+                        <p>Deine Bühne muss nicht wie die Abbildung aussehen. Wenn ihr das aber gerne möchtet, könnt ihr durch einen Klick auf das Bühnensymbol rechts unten sowie durch Auswählen des Menüpunktes "Hintergründe..." aus dem Snap<em>!</em> Datei-Menü links oben, das "XY Grid" importieren. Dann wählt ihr unterhalb der Bühne das Sprite-Symbol aus und setzt oben links in der blauen Bewegungspalette Häckchen in den Kästchen vor <var>x Position</var>, <var>y Position</var>, und <var>Richtung</var></p>
+                        <p>Zu diesem Zeitpunkt lassen wir Alonzo nur von -190 und 190 in der <em>x</em> Richtung und zwischen -130 und 130 in der <em>y</em> Richtung laufen, sodass er nicht über die Kante der Bühne geht.</p>
                     </div> </div>
 	</body>
 </html>
