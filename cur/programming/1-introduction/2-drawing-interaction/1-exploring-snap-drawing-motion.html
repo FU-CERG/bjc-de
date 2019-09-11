@@ -3,17 +3,17 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<script type="text/javascript" src="/bjc-de/llab/loader.js"></script>
-		<title>Unit 1 Lab 2: Sprite Drawing and Interaction, Page 1</title>
+		<title>Lektion 1 Programmieraufgabe 2: Erstellen einer App (1/4)</title>
 	</head>
-    
+
 	<body>
-		<h2>Drawing and Motion</h2>
+		<h2>Zeichnen und Bewegen</h2>
         <div class="todo">From Observation Notes Analysis: U2L1 (now seemingly moved here): "One of the boys at Innovation mentioned that there was an error in Snap’s arithmetic because Snap seems to think that triangles have 360° when we all know that they have only 180°.  I didn’t mention exterior angles, but did sketch a map of a road with a second one meeting it at a "sharp" angle. On the map, the angle is small, but what we experience when we bike and turn the sharp angle onto that road is a very large turn. On the polygon, only the interior angle is visible and the program deals only with the exterior angle.  We should probably have an image of a map—brief, no fancy language, maybe not even the terminology (because that’ll become a focus and take away from the understanding—in the curriculum with just the kind of informal comment the boy and I discussed. On the map both angles are visible: one is the tiny angle we tend to see; the other is the enormous angle we experience as we move."</div>
         <img class="inline" src="/bjc-de/img/icons/work-with-a-partner.png" alt="Work with a Partner" title="Work with a Partner" />
-		<p> A <strong>script</strong> is a sequence of instructions that tells a computer what to do. A <strong>program</strong> is a set of scripts. In some programming languages, like <span class="snap">snap</span>, you program by dragging blocks (individual instructions) and snapping them together. In other languages, you <em>type</em> the instructions. The idea is the same.</p>
-<p>For now, you're using blocks that <span class="snap">snap</span> provides. Soon, you'll invent and create your own blocks.</p>
+		<p> Ein <strong>Skript</strong> ist eine Sequenz von Anweisungen, die einem Computer sagt was er machen soll. Ein <strong>Programm</strong> ist eine Menge von Skripten. In manchen Programmiersprachen, wie <span class="snap">snap</span>, programmierst du durch Ziehen und Verbinden von Blöcken. In anderen Programmiersprachen <em>tippst</em> du die Anweisungen ein. Die Idee ist die gleiche.</p>
+<p>Fürs erste benutzt ihr Blöcke, die <span class="snap">snap</span> bereitstellt. Später werdet ihr eigene Blöcke definieren und erstellen.</p>
 
-        
+
 		<div class="forYouToDo" id="first">
 			<ol>
 				<!-- <div class="sidenote">
@@ -21,63 +21,62 @@
                     The blocks' colors match their palettes: blue for Motion, green for Pen, etc.
                 </div> -->
 				<li>
-                    Build this script. <br />
-                    <img class="indent" src="/bjc-de/img/1-introduction/repeat-4(move-50-turn-right-90).png" alt="repeat-4(move-50-turn-clockwise-90)" title="pen down, repeat 4 (move 50 steps, turn CW 90 degrees)" /> <div class="sidenote">Clicking anywhere on a script runs it.</div> <br />
-                <ul><li>Click on it to see what it does. </li><li>Click on  <img src="/bjc-de/img/1-introduction/pen-down.png" height="36" alt="pen down"> and then click on your script again.</li></ul></li>	
-						
-				<li><img src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner"> Analyze <strong>why</strong> that script does what it does.</li>
+                    Baue dieses Skript. <br />
+                    <img class="indent" src="/bjc-de/img/1-introduction/repeat-4(move-50-turn-right-90).png" alt="repeat-4(move-50-turn-clockwise-90)" title="pen down, repeat 4 (move 50 steps, turn CW 90 degrees)" /> <div class="sidenote">Durch Klicken auf das Skript wird es ausgeführt.</div> <br />
+                <ul><li>Führt das Skript aus und versteht wie es arbeitet. </li><li>Klicke auf  <img src="/bjc-de/img/1-introduction/pen-down.png" height="36" alt="pen down"> und dann führt euer Skript erneut aus.</li></ul></li>
+
+				<li><img src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner"> Analysiert, <strong>warum</strong> dieses Skript das tut, was es tut.</li>
 				<li>
 					<!-- <img src="/bjc-de/img/icons/talk-with-another-pair.png" alt="Talk with Another Pair" title="Talk with Another Pair" />  -->
-					Compare your work with another pair. If your script behaves differently from theirs, check both.
+					Vergleicht euer Ergebnis mit einem anderen Zweierteam. Falls euer Skript sich anders verhält als deren Skript, überprüft sie beide.
 				</li>
-                <img class="inline" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /> Switch who is sitting at the keyboard.
+                <img class="inline" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /> Rollentausch der Partner.
                 <li>
-                	<strong>Experiment!</strong> Try these experiments to see what happens.<br />
+                	<strong>Experiment!</strong> Probiert diese Experimente aus, um zu sehen was passiert.<br />
 					<ol>
-						
-                        <li>Change the number in the <img class="inline" src="/bjc-de/img/1-introduction/move-50.png" height="36" alt="move 50 steps" title="move 50 steps"> block <em>in your script</em> and click the script to run it with that new number.</li>
+
+                        <li>Ändert die Zahl im <img class="inline" src="/bjc-de/img/1-introduction/move-50.png" height="36" alt="move 50 steps" title="move 50 steps"> Block <em>in eurem Skript</em> und führt es mit der neuen Zahl aus.</li>
 						<li>
-                        	<div class="sidenote">You can click <img class="inline" src="/bjc-de/img/blocks/clear.png" height="36" alt="clear" title="clear" /> (or any  block) by itself in its palette or in the scripting area to run it. If you click a block in a script, the entire script runs.</div>
-                            Click the <img class="inline" src="/bjc-de/img/blocks/clear.png" height="36"  alt="clear" title="clear" /> block in the green Pen palette.</li>
-                        <li>Change the number in the <img class="inline" src="/bjc-de/img/1-introduction/turn-right-90.png" height="36" alt="turn right 90 degrees" title="turn right 90 degrees"> block and run the script again... and again... and again.</li>
-						<li>Change the number in the <img class="inline" src="/bjc-de/img/1-introduction/repeat-4.png" alt="repeat 4" title="repeat 4" /> block.</li>
-						<li>Experiment with the input numbers in the <code>turn</code> and <code>repeat</code> blocks to get a perfect triangle.</li>
-						<li> Use <span class="center"><img class="inline" src="/bjc-de/img/blocks/set-pen-size-to-1.png" height="36" alt="set pen size to 1" title="set pen size to 1" /></span> to set  the pen size to something like 4 or 10 or 50. Then draw something. </li>
-						<div class="endnote">To change the pen size you must <em>click</em> the <code>set pen size</code> block to run it after you've entered the number you want.</div>
-                        <li>Move the sprite by dragging it to a new location. Does it leave a trace as you move it?</li>
-                        <li>Move the sprite by clicking on <img class="inline" src="/bjc-de/img/1-introduction/move-50.png" height="36"  alt="move 50 steps" title="move 50 steps">. Does it leave a trace as it moves?</li>
-                        <li>Click <img class="inline" src="/bjc-de/img/blocks/go-to-x-y-0-0.png" height="36"  alt="go to x 0 y 0" title="go to x 0 y 0" />. (This can get your sprite back when it runs off the screen.)  Does it leave a trace?</li>
+                        	<div class="sidenote"> Ihr könnt auf den <img class="inline" src="/bjc-de/img/blocks/clear.png" height="36" alt="clear" title="clear" /> Block klicken (in der Palette oder im Skript) um ihn auszuführen. Wenn ihr den Block im Skript anklickt wird das ganze Skript ausgeführt.</div>
+                            Klicke auf den <img class="inline" src="/bjc-de/img/blocks/clear.png" height="36"  alt="clear" title="clear" /> Block in der dunkelgrünen Stift-Palette.</li>
+                        <li>Ändert die Nummer im <img class="inline" src="/bjc-de/img/1-introduction/turn-right-90.png" height="36" alt="turn right 90 degrees" title="turn right 90 degrees"> Block und führt das Skript erneut aus... und erneut... und erneut.</li>
+						<li>Ändert die Nummer im <img class="inline" src="/bjc-de/img/1-introduction/repeat-4.png" alt="repeat 4" title="repeat 4" /> Block.</li>
+						<li>Experimentiert mit den Eingabezahlen in den <code>drehe</code> und <code>wiederhole</code> Blöcken, um ein perfektes Dreieck zu erstellen.</li>
+						<li>Benutzt <span class="center"><img class="inline" src="/bjc-de/img/blocks/set-pen-size-to-1.png" height="36" alt="set pen size to 1" title="set pen size to 1" /></span> , um die Stiftdicke auf 4 oder 10 oder 50 zu ändern. Dann zeichnet etwas. </li>
+						<div class="endnote">Um die Schriftdicke zu ändern müsst ihr auf den <code>setze Stiftdicke</code> block <em>klicken</em>, die gewünschte Zahl eingeben und den Block danach ausführen.</div>
+                        <li>Bewege den Sprite auf der Bühne durch Ziehen mit der Maus auf eine neue Position. Hinterlässt er eine Spur, während ihr ihn bewegt?</li>
+                        <li>Bewegt den Sprite durch Klicken auf den <img class="inline" src="/bjc-de/img/1-introduction/move-50.png" height="36"  alt="move 50 steps" title="move 50 steps"> Block. Hinterlässt er eine Spur, während ihr ihn bewegt?</li>
+                        <li>Klicke auf <img class="inline" src="/bjc-de/img/blocks/go-to-x-y-0-0.png" height="36"  alt="go to x 0 y 0" title="go to x 0 y 0" />. (Dies kann dein Sprite zurückbringen, wenn es von der Bühne läuft.) Hinterlässt er eine Spur?</li>
                  	</ol>
                 </li>
 			</ol>
 			<img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" />
 		</div>
-               
+
         <div class="takeItFurther"><a name="further" class="anchor">&nbsp;</a>
 			<ol type="A">
             	<li>
-					<strong>Experiment more!</strong> Invent a design of your own. Below are two other blocks that you may find useful. Find them by color, and click on them to see what they do. 
+					<strong>Experimentiert weiter</strong> Erfindet ein eigenes Design. Hier drunter bfeinden sich zwei weitere Blöcke, die ihr möglicherweise hilfreich finden könntet. Findet sie über ihre Farbe in den Paletten und klickt sie an, um zu sehen welche Funktion sie haben.
 					<p class="center">
-                        <img class="inline" src="/bjc-de/img/blocks/point-in-direction-90.png" height="36" alt="point in direction 90" title="point in direction 90" /> 
+                        <img class="inline" src="/bjc-de/img/blocks/point-in-direction-90.png" height="36" alt="point in direction 90" title="point in direction 90" />
                         <img class="inline" src="/bjc-de/img/blocks/set-pen-color-to.png" height="36" alt="set pen color dark red" title="set pen color dark red" />
                     </p>
 				</li>
-                <li>Draw a circle. &nbsp;&nbsp;<a id="hintbutton" onClick="document.getElementById('hintbutton').innerHTML='(A circle is kind of a polygon with many sides.)';">(Don't click unless you <em>really</em> need a hint.)</a>
-  &nbsp;&nbsp;<a id="hintbutton2" onClick="document.getElementById('hintbutton2').innerHTML='Adjust the <code>repeat [move, turn]</code> script that you made above, but use <em>tiny</em> turns (1 or 2 degrees) repeated <em>many</em> times. Adjust the size so that your drawing fits on the stage.';">(Don't click unless you <em>really, really</em> need a <em>super big</em> hint.)</a></li>
-                <li><img src="/bjc-de/img/icons/share-your-work.png" alt="Share Your Work" title="Share Your Work" /> with another pair. </li>
-				<div class="endnote" style="margin-top:1em;">If you see some feature or code that you like, build something like it in your own program.</div>
+                <li>Zeichnet einen Kreis. &nbsp;&nbsp;<a id="hintbutton" onClick="document.getElementById('hintbutton').innerHTML='(A circle is kind of a polygon with many sides.)';"> (Hier nicht klicken, es sei denn, du brauchst <em>wirklich</em> einen Hinweis.)</a>
+  &nbsp;&nbsp;<a id="hintbutton2" onClick="document.getElementById('hintbutton2').innerHTML='Adjust the <code>repeat [move, turn]</code> script that you made above, but use <em>tiny</em> turns (1 or 2 degrees) repeated <em>many</em> times. Adjust the size so that your drawing fits on the stage.';">(Hier nicht klicken, es sei denn, du brauchst <em>wirklich</em>, <em>wirklich</em> einen <em>riesen großen</em> Hinweis.)</a></li>
+                <li><img src="/bjc-de/img/icons/share-your-work.png" alt="Share Your Work" title="Share Your Work" /> mit einem anderen Paar. </li>
+				<div class="endnote" style="margin-top:1em;"> Falls ihr ein Feature oder Code seht, das euch gefällt, dann baut etwas ähnliches und fügt es in euer Programm ein.</div>
                 <img class="imageRight" src="/bjc-de/img/icons/tough-stuff.png" alt="Tough Stuff" title="Tough Stuff" />
                 <li>
-                    <strong>Challenge:</strong> Create a script that  draws a blue square of size 100 and then draws a red circle that fits perfectly inside it.<br />
+                    <strong>Zusatzaufgabe:</strong> Entwickelt ein Skript, das ein blaues Quadrat der Größe 100 zeichnet und dann ein roten Kreis zeichnet, der perfekt in das Quadrat passt.<br />
                     <img class="indent" src="/bjc-de/img/1-introduction/red-circle-in-blue-square.png" alt="red circle in blue square" title="red circle in blue square" /><br />
-        			If you make a design that you'd like to save, <div class="saveAs"><span class="text">"U1L2-Drawing"</span><img src="/bjc-de/img/icons/save-this-as.png" alt="save your work as U1L2-Drawing" title="save your work as U1L2-Drawing" /></div>
+        			Wenn ihr ein Design erstellt habt, das ihr sichern möchtet, <div class="saveAs"><span class="text">"L1P2-Zeichnung"</span><img src="/bjc-de/img/icons/save-this-as.png" alt="save your work as U1L2-Drawing" title="save your work as U1L2-Drawing" /></div>
                 </li>
             </ol>
 
-        
-        </div>	   
-	
-    
+
+        </div>
+
+
     </body>
 </html>
-
