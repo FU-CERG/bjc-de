@@ -10,25 +10,25 @@
 		<h2>Fertigstellung deiner ersten Snap<em>!</em> App</h2>
         <p><img class="inline" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /></p>
 
-		<p>In Snap<em>!</em>, a sprite can have more than one script controlling its behavior. You currently have just one script, which runs <em>when you click</em> on Alonzo. Now you'll make a second script that runs <em>when you click on the green flag</em>. The new script will get Alonzo to welcome the player to your game.</p>
+		<p>Das Verhalten eines Sprites kann in Snap<em>!</em> von mehr als einem Skript bestimmt werden. Aktuell habt ihr nur ein Skript, das ausgeführt wird, wenn du auf Alonzo <em>klickst</em>. Jetzt werdet ihr eine zweites Skript erstellen, das ausgeführt wird, wenn ihr <em>auf die grüne Flagge klickt</em>. Das neue Skript befähigt Alonzo die teilnehmenden Spieler in eurem Spiel zu begrüßen.</p>
         <div class="takeNote">
-        	<p><em>Orange boxes (like this) contain <strong>information</strong> or <strong>ideas</strong> you will want to remember.</em></p>
-            <p>Clicking the green flag at the top right, <img class="button" src="/bjc-de/img/1-introduction/green-flag_button.png" alt="green-flag button"/>, is one way to start a Snap<em>!</em> script. You can stop all running scripts by clicking the red stop sign, <img class="button" src="/bjc-de/img/1-introduction/stop_button.png" alt="stop button"/>.</p>
+        	<p><em>Die organgen Boxen (wie diese) enthalten <strong>informationen</strong> oder <strong>ideen</strong>, die wichtig sind sich zu merken.</em></p>
+            <p>Ein Weg ist es die grüne Flagge oben rechts <img class="button" src="/bjc-de/img/1-introduction/green-flag_button.png" alt="green-flag button"/> anzuklicken, um das Snap<em>!</em> Skript zu starten. Ihr könnt alle laufenden Skripte stoppen, indem ihr das rote Symbol oben rechts anklickt <img class="button" src="/bjc-de/img/1-introduction/stop_button.png" alt="stop button"/>.</p>
         </div>
 
         <div class="forYouToDo" id="first">
     		<ol>
-			    <div class="sidenoteBig">You can do this using just 3 blocks including: <img class="" src="/bjc-de/img/blocks/when-greenflag-clicked.png" alt="when green flag clicked" title="when green flag clicked" /></div>
-                <li>Create a second script that makes Alonzo move to (190, -130) and <code>say</code> a welcome message whenever the green flag is clicked. (Alonzo might say, "Welcome to 'Click On Alonzo!' Keep clicking me if you can!") . </li>
+			    <div class="sidenoteBig">Ihr könnt das schon mit nur 3 Blöcken tun, einschließlich: <img class="" src="/bjc-de/img/blocks/when-greenflag-clicked.png" alt="when green flag clicked" title="when green flag clicked" /></div>
+                <li>Entwerft ein zweites Skript, das Alonzo auf die Position (190, -130) bewegt und bei jedem Klick auf die grüne Flagge eine Willkommensnachricht <code>sagen</code> lässt. (Alonzo Könnte sagen: "Willkommen zu 'Klick auf Alonzo!'. Versuche weiter auf mich zu klicken, falls du kannst!") . </li>
 			    <li>
-                	Make that message disappear when the player clicks on Alonzo.
-                	  <div class="endnote">The <img src="/bjc-de/img/blocks/say-empty.png" alt="say ()" title="say ()" /> block with an empty input will make the  sprite  say nothing.</div>
+                	Stelle sicher, dass die Nachricht verschwindet, wenn ein Spieler auf Alonzo klickt.
+                	  <div class="endnote">Der <img src="/bjc-de/img/blocks/say-empty.png" alt="say ()" title="say ()" /> Block mit leerem Textfeld sorgt dafür, dass der Sprite nichts sagt.</div>
                 </li>
                 <li>
-                	Check that your app does everything you want:
+                	Überprüfe, ob die App alles kann was sie soll:
                 	  <ul>
-                    	<li>When the green flag is clicked, Alonzo should move to (190, -130) and say its message.</li>
-                        <li>When Alonzo is clicked, the message should disappear, and Alonzo should move to a random spot on the stage and face the other way.</li>
+                    	<li>Wenn die grüne Flagge angeklickt wird muss Alonzo zu Position (190, -130) und seine Nachricht sagen.</li>
+                        <li>Wenn Alonzo angeklickt wird, muss diese Nachricht wieder verschwinden und Alonzo muss sich zu eine zufälligen Position auf der Bühne bewegen und in die entgegengesetze Richtung gucken.</li>
                     </ul>
                 </li>
  			</ol>
@@ -40,20 +40,20 @@
 			<!-- <img class="imageRight" src="/bjc-de/img/icons/tough-stuff.png" alt="Tough Stuff" title="Tough Stuff" /> -->
             <ol type="A">
 				<li>
-                    So far, Alonzo waits in one place to be clicked. Increase the challenge by adding code so that after the first  click and from them on, Alonzo moves to a random position on the stage every two seconds (even if not clicked).
+                    Bis jetzt wartet Alonzo an einer Stelle, um angeklickt zu werden. Erhöhe die Schwierigkeit durch hinzufügen von Code-Blöcken, sodass nach dem ersten Klick auf Alonzo, und von da an, er sich alle 2 Sekunden automatisch zu einer zufälligen Position auf der Bühne bewegt (auch wenn er nicht angeklickt wird).
 					  <div class="takeNote">
-                    	<strong>Translating ideas into code:</strong>
+                    	<strong>Übersetzung der Ideen in Code:</strong>
                   <ul>
-                            <li>"Every 2 seconds" means <code>wait 2 seconds</code> and repeat.</li>
-                            <li>In Snap<em>!</em> programming, "from then on" uses the <code>forever</code> block. </li>
-                            <li>What does "after the first time Alonzo is clicked" tell you about the structure of the code? </li>
+                            <li>"Alle 2 Sekunden" heißt <code>warte 2 Sekunden</code> und wiederhole.</li>
+                            <li>In Snap<em>!</em> Programmierung wird für "von da an" der <code>fortlaufend</code> Block verwendet. </li>
+                            <li>Was sagt euch "nach dem ersten Klick auf Alonzo" über die Struktur des Codes? </li>
                             <!-- <div class="takeNote">Snap<em>!</em> scripts can run at the same time. <em>Within each script, the steps run one at a time</em>.</div> -->
                         </ul>
                     </div>
                 </li>
-                <li>Give the player some sense of how well they are doing:
+                <li>Gebt den Spieler eures Spiel Feedback wie gut sie das Spiel gespielt haben:
                 	<ol style="list-style: lower-roman;">
-                    	<li>Put <img src="/bjc-de/img/1-introduction/ghost.png" alt="change ghost effect by 5" title="change ghost effect by 5" /> in the script that runs when the player clicks on Alonzo. This makes Alonzo fade a bit each time he's clicked.</li>
+                    	<li>Füge <img src="/bjc-de/img/1-introduction/ghost.png" alt="change ghost effect by 5" title="change ghost effect by 5" /> in das Skript, das ausgeführt wird, wenn der Spieler auf Alonzo Klickt. Dadurch verblasst Alonzo jedes Mal, wenn er angeklickt wird, ein wenig.</li>
                         <li>Put another block in your program to change the ghost effect by -5 any time Alonzo moves without being clicked. </li>
  <!--  BRING BACK AFTER TEACHING TELL.
 						<div class="todo">
