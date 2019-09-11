@@ -47,7 +47,7 @@ llab.secondarySetUp = function() {
              function: llab.mathDisplaySetup()
          }
      ]);
-     
+
      // We don't have a topic file, so we should exit.
      if (llab.file === '' || !llab.isCurriculum()) {
           return;
@@ -382,8 +382,8 @@ llab.createTitleNav = function() {
           navHTML = '<div class="nav navbar-nav navbar-right">' +
                       '<ul class="nav-btns btn-group"></ul></div>',
           topNav = $(llab.selectors.NAVSELECT),
-          buttons = "<a class='btn btn-default backbutton arrow'>back</a>" +
-                       "<a class='btn btn-default forwardbutton arrow'>next</a>";
+          buttons = "<a class='btn btn-default backbutton arrow'>zurück</a>" +
+                       "<a class='btn btn-default forwardbutton arrow'>vorwärts</a>";
 
      if (topNav.length === 0) {
           $(document.body).prepend(topHTML);
@@ -623,4 +623,3 @@ llab.indicateProgress = function(numSteps, currentStep) {
 $(document).ready(function() {
      llab.secondarySetUp();
 });
-
