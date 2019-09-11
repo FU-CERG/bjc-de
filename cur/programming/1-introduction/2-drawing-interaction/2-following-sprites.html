@@ -6,66 +6,66 @@
 		<script type="text/javascript" src="/bjc-de/utilities/gifffer.min.js"></script>
 		<script type="text/javascript">window.onload = function() {Gifffer();}</script>
         <link rel="stylesheet" type="text/css" href="/bjc-de/css/bjc-gifffer.css">
-        <title>Unit 1 Lab 2: Sprite Drawing and Interaction, Page 2</title>
+        <title>Lektion 1 Programmieraufgabe 2: Erstellen einer App (2/4)</title>
     </head>
-    
+
 	<body>
-		<h2>Programming a Sprite to Follow a Motion</h2>
+		<h2>Programmieren eines Sprites zum Folgen einer Bewegung</h2>
         <div class="todo">
         	<ul>
                 <li>GH Feedback 9/10/15: I would like to suggest more questions on this page. It's great material, but not enough places for the kids to stop and think.</li>
                 <li>GH Feedback 10/24/15: Need more specific attention to the Sprite(2) script. We just start using it and students gloss over that this is a separate script for the second sprite.</li>
             </ul>
         </div>
-        
-        <p>On this page and the next, you will program <em>two</em> sprites. One sprite will follow your mouse. The other sprite will chase the first. When they meet, they will have a short conversation.</p>
+
+        <p>Auf dieser und der nächsten Seite wirst du <em>zwei</em> Sprites programmieren. Ein Sprite folgt deiner Maus. Das andere Sprite wird das erste jagen. Wenn sie sich treffen, werden sie ein kurzes Gespräch führen.</p>
 		<div class="forYouToDo" id="first">
 			<ol>
-				<li><div class="newProject"><span class="text">"U1L2-SpriteChase"</span><img src="/bjc-de/img/icons/new-project-called.png" alt="Create a new project called U1L2-SpriteChase" title="Create a new project called U1L2-SpriteChase" /></div></li>
+				<li><div class="newProject"><span class="text">"L1P2-SpriteChase"</span><img src="/bjc-de/img/icons/new-project-called.png" alt="Create a new project called U1L2-SpriteChase" title="Create a new project called U1L2-SpriteChase" /></div></li>
                 <li>
-                    Read and think about this script before you build it. What do you expect it to do?<br />
+                    Lest und denkt über dieses Skript nach, bevor ihr es erstellt. Was erwartet ihr vom Skript?<br />
 	                <img class="imageRight" src="/bjc-de/img/icons/talk-with-your-partner-mini.png" alt="Talk with Your Partner" title="Talk with Your Partner" />
                     <img class="indent" src="/bjc-de/img/1-introduction/follow-that-mouse.png" alt="Follow That Mouse Script" title="Follow That Mouse Script" />
-                    <div class="endnote"><img src="/bjc-de/img/blocks/mouse-x.png" class="inline" alt="Mouse X Reporter"/> and <img src="/bjc-de/img/blocks/mouse-y.png" class="inline" alt="Mouse Y Reporter"/> report the mouse's location on the stage. Find them in the Sensing palette.</div>
+                    <div class="endnote"><img src="/bjc-de/img/blocks/mouse-x.png" class="inline" alt="Mouse X Reporter"/> and <img src="/bjc-de/img/blocks/mouse-y.png" class="inline" alt="Mouse Y Reporter"/> geben die Position der Maus auf der Bühne zurück. Sie finden sie in der Palette Fühlen.</div>
                 </li>
                 <li>
-					Now build the script and run it. Move your mouse around the stage while the program is running.
-                  <div class="endnote">The block at the top of the script is called a <strong>hat</strong> block.  Its shape emphasizes that it can be used only at the <em>beginning</em> of a script. Hat blocks don't say what the script should do; they say what <strong>event</strong> should start the script running. In this case, the script starts when the green flag button is clicked.<br /><br />To <em>stop</em> this script, click the red stop sign: <img class="button" src="/bjc-de/img/1-introduction/stop_button.png" style="height:1.9em;" alt="stop button" title="stop button"/> </div>
+					Baut jetzt das Skript und führt es aus. Bewegt die Maus über die Bühne während das Programm ausgeführt wird.
+                  <div class="endnote">Der Block auf dem Skript oben drauf heißt <strong>Hut</strong> Block.  Seine Form unterstreicht, dass er nur am <em>Anfang</em> eines Skriptes benutzt werden kann. Die Hut Blöcke sagt nichts über die Eigenschaften des Skriptes aus; Sie sagen mit welchem <strong>Ereignis</strong> das Skript startet. In diesem Fall startet das Skript, wenn das grüne Flaggen Symbol angeklickt wird.<br /><br />Um das Sktipt zu <em>stoppen</em> muss das rote Stop Symbol angeklickt werden: <img class="button" src="/bjc-de/img/1-introduction/stop_button.png" style="height:1.9em;" alt="stop button" title="stop button"/> </div>
                 </li>
-                <li> Does the program work the way you expected?</li>
-                <li> 
-               	  Create a second sprite by clicking on the <img src="/bjc-de/img/1-introduction/add-a-new-turtle-sprite.png" alt="add a new turtle sprite" title="add a new turtle sprite" /> button just below the stage. <a name="newTurtle" class="anchor">&nbsp;</a><br />
-                    Then use the <code>point towards</code> block to make it point towards Sprite. The animation below shows how. 
+                <li> Funktioniert das programm so wie ihr es erwartet habt?</li>
+                <li>
+               	  Erstellt einen zweiten Sprite durch Klicken auf das <img src="/bjc-de/img/1-introduction/add-a-new-turtle-sprite.png" alt="add a new turtle sprite" title="add a new turtle sprite" /> Symbol direkt unter der Bühne. <a name="newTurtle" class="anchor">&nbsp;</a><br />
+                    Dann benutze den <code>zeige auf</code> Block, um den zweiten Sprite auf den ersten gucken zu lassen. Die Animation hier drunter zeigt wie das geht.
 				  <img data-gifffer="/bjc-de/img/1-introduction/newsprite-pointing-to-old-sprite-part1.gif" alt="getting a new sprite" title="getting a new sprite" />                </li>
-	
+
                 <div class="endnote">
-                    The new sprite, named Sprite(2), appears on the stage. It's brand new, so it has no scripts.  The buttons beneath the stage let you select the sprite you want to program.
-                    <img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /> 
+                    Der neue Sprite (Sprite(2)) erscheint auf der Bühne. Er ist neu und hat deswegen noch kein Skript. Mit dem Symbol unter der Bühne könnt ihr den Sprite auswählen, den ihr programmieren wollt.
+                    <img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" />
                 </div>
-                  
-				<li> 
-                	Change your script for Sprite(2) so that once the green flag is clicked, Sprite(2) will point towards Sprite <code>forever</code>.  <br />
+
+				<li>
+                	Ändert euer Skript für Sprite(2) so, dass wenn ihr die grüne Flagge anklickt Sprite(2) <code>fortlaufen</code> in die Richtung vom Sprite guckt.  <br />
 					<!--<pre>
 	when started
-	forever 
+	forever
 	  {
 	     point towards (Sprite)
 	  }</pre>-->
 	                <img data-gifffer="/bjc-de/img/1-introduction/newsprite-pointing-to-old-sprite-part2.gif" alt="pointing towards Sprite forever" title="pointing towards Sprite forever" />
                 </li>
-                <div class="endnote">While a script is running, its border lights up. If the running time is short, you may not notice the brief flash. </div>
+                <div class="endnote">Während ein Skript ausgeführt wird, leuchtet sein Rand auf. Wenn die Laufzeit kurz ist, bemerkt ihr möglicherweise das kurze Blinken nicht. </div>
                 <li>
-                    Click <img src="/bjc-de/img/1-introduction/green-flag_button.png" style="height:1.9em;" alt="green-flag button" title="green-flag button"/> and check that your script does what you intended:
-                        <ul> 
-                            <li>Sprite always follows your mouse.</li>
-                            <li>Sprite(2) stays in one place, but always points toward Sprite.</li>
+                    Klicke auf <img src="/bjc-de/img/1-introduction/green-flag_button.png" style="height:1.9em;" alt="green-flag button" title="green-flag button"/> und überprüft, ob euer Skript tut was beabsichtigt war:
+                        <ul>
+                            <li>Sprite folgt immer eurer Maus.</li>
+                            <li>Sprite(2) bleibt auf der Stelle, ist aber immer auf Sprite gerichtet.</li>
                         </ul>
 				</li>
-				<div class="endnote">Both sprites' scripts use <code>When<img src="/bjc-de/img/1-introduction/green-flag_button.png" style="height:1.6em;" alt="green-flag button" title="green-flag button"/>clicked</code>, so <em>both</em> scripts run when <img src="/bjc-de/img/1-introduction/green-flag_button.png" style="height:1.9em;" alt="green-flag button" title="green-flag button"/> is clicked.</div>
+				<div class="endnote">Beide Sprites' Skripte benutzen <code>Wenn<img src="/bjc-de/img/1-introduction/green-flag_button.png" style="height:1.6em;" alt="green-flag button" title="green-flag button"/>angeklickt</code>, also starten <em>beide</em> Skripte wenn ihr <img src="/bjc-de/img/1-introduction/green-flag_button.png" style="height:1.9em;" alt="green-flag button" title="green-flag button"/> anklickt.</div>
 			</ol>
 	</div>
 		<p><img class="inline" src="/bjc-de/img/icons/save-now.png" alt="Now Is a Good Time to Save" title="Now Is a Good Time to Save" /></p>
-          
-    
+
+
     </body>
 </html>
