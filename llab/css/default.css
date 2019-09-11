@@ -296,7 +296,7 @@ code { /* Override bootstrap. */
 .arrow {/* For Buttons with arrows instead of words. */
   border-radius: 8px;
   font-variant: small-caps;
-  width: 3em;
+  /*width: 3em;*/
   padding: 3px; /* center text in buttons */
 }
 

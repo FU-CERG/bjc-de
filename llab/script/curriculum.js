@@ -382,8 +382,8 @@ llab.createTitleNav = function() {
           navHTML = '<div class="nav navbar-nav navbar-right">' +
                       '<ul class="nav-btns btn-group"></ul></div>',
           topNav = $(llab.selectors.NAVSELECT),
-          buttons = "<a class='btn btn-default backbutton arrow'>zurück</a>" +
-                       "<a class='btn btn-default forwardbutton arrow'>vorwärts</a>";
+          buttons = "<a class='btn btn-default backbutton arrow'>←</a>" +
+                       "<a class='btn btn-default forwardbutton arrow'>→</a>";
 
      if (topNav.length === 0) {
           $(document.body).prepend(topHTML);
