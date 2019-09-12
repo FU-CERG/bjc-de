@@ -7,12 +7,12 @@
 		<script type="text/javascript">window.onload = function() {Gifffer();}</script>
         <link rel="stylesheet" type="text/css" href="/bjc-de/css/bjc-gifffer.css">
         <script> window.newtext='<br /><img src="/bjc-de/img/1-introduction/draw-triangle.gif"  alt="Pencil trace of turn angle drawing a triangle">';</script>
-        <title>Unit 1 Lab 3: Building Your Own Blocks, Page 1</title>
+        <title>Lektion 1 Programmieraufgabe 2: Erstellen eigener Blöcke (1/4)</title>
     </head>
-    
+
     <body>
-        <h2>Designing Custom Blocks</h2>
-        <div class="todo">From Observation Notes Analysis: 
+        <h2>Erstellen von Benutzerdefinierten Blöcken</h2>
+        <div class="todo">From Observation Notes Analysis:
         	<ul>
             	<li>U1L4 (now seemingly moved here): "The Build House mini-project was hard for at least one student who said that building their own blocks was the problem there."</li>
                 <li>U3L4 (seemed more relevant here now): "… idea of building special-purpose blocks --- the abstraction thing --- is hard….kids' calculations tend for a long time to be "spaghetti code." The TG doesn't suggest anything to help the teacher clarify what the problem is before students start working on it…"</li>
@@ -24,72 +24,72 @@
           <br />
           Thanks to <a href="http://code.org">code.org</a> for this video!
         </p>-->
-    
-        <p>So far, you've used blocks that already existed. Now, you'll learn to build your own blocks and use them to make other blocks.</p>
+
+        <p>Bis jetzt habt ihr immer Blöcke verwendet, die bereits existiert haben. Jetzt werdet ihr lernen, wie ihr eure eigenen Blöcke erstellen könnt und diese benutzen könnt.</p>
         <p>
 		<img class="imageRight" src="/bjc-de/img/1-introduction/draw-square-def-repeat-4(move-50-turn-right-90).png" alt="repeat-4(move-50-turn-clockwise-90)" title="pen down, repeat 4 (move 50 steps, turn CW 90 degrees)" />
-            You'll start by defining a <code>draw square</code> block with a familiar script (shown right). Then, you'll define <code>draw triangle</code>, then <code>draw house</code>, and finally <code>draw row of houses</code>.<br />
+            Ihr werdet mit dem bereits bekannten Skript (siehe rechts) euren eigenen <code>zeichne Quadrat</code> Block definieren. Dann werdet ihr den <code>zeichne Dreieck</code> Block, dann den <code>zeichne Haus</code> Block und schließlich den <code>zeichne Reihe von Häusern</code> Block erstellen.<br />
             <img class="indent noshadow" src="/bjc-de/img/1-introduction/row-houses.png" alt="Row of 4 Houses" title="Row of 4 Houses" />
 		</p>
-        
-        <div class="takeNote">Creating a block gives a <em>name</em> to a script that can be called inside another block. This is a form of <strong>abstraction</strong>, tucking away the details of your code to make the overall structure clearer and easier to debug. Soon, you'll learn how to <a href="/bjc-de/cur/programming/1-introduction/3-building-blocks/2-adding-an-input.html?topic=nyc_bjc%2F1-intro-loops.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">give your script an input</a>, just as <img class="inline" src="/bjc-de/img/1-introduction/move-50.png" height="36" alt="move 50 steps" title="move 50 steps"> takes an input to tell the sprite how far to move.</div>
-        
+
+        <div class="takeNote">Durch das Erstellen eines Blockes wird dem Skript ein <em>Name</em> zugewiesen, der innerhalb eines anderen Skriptes für dieses Skript steht. Das ist eine Form der <strong>Abstraktion</strong>. Hierbei wird hinter einer Bezeichnung der entsprechende Code versteckt, um dem Skript eine klare Struktur zu geben und es dadurch einfacher auf Fehler zu untersuchen (zu debuggen). Später werdet ihr lernen wie <a href="/bjc-de/cur/programming/1-introduction/3-building-blocks/2-adding-an-input.html?topic=nyc_bjc%2F1-intro-loops.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">ihr eurem Block eine Eingabe Variable gebt</a>, wie bei dem <img class="inline" src="/bjc-de/img/1-introduction/move-50.png" height="36" alt="move 50 steps" title="move 50 steps"> Block, der eine Eingabe bekommt, damit der Sprite weiß wie weit er sich bewegen soll.</div>
+
         <div class="forYouToDo" id="first">
 			<ol>
-				<li><div class="newProject"><span class="text">"U1L3-Polygons"</span><img src="/bjc-de/img/icons/new-project-called.png" alt="Create a new project called U1L3-Polygons" title="Create a new project called U1L3-Polygons" /></div></li>
+				<li><div class="newProject"><span class="text">"L1P3-Polygon"</span><img src="/bjc-de/img/icons/new-project-called.png" alt="Create a new project called U1L3-Polygons" title="Create a new project called U1L3-Polygons" /></div></li>
             	<li>
-					<div class="sidenote">To get the Block Editor, you can also click <img class="inline" src="/bjc-de/img/1-introduction/make-a-block.png" alt="Make a block" title="Make a block" /> near the bottom of the Variables palette.</div>
-					Build the <code>draw square</code> block: right-click (or, on a Mac, control-click) on the gray background of the scripting area and choose "make a block..." 
+					<div class="sidenote">Um zu Blockerstellung zu kommen, könnt ihr unterhalb der Blöcke in jeder Kategorie der Palette auf <img class="inline" src="/bjc-de/img/1-introduction/make-a-block.png" alt="Make a block" title="Make a block" /> klicken, um mit der erstellung zu beginnen.</div>
+					baue den <code>zeichne Quadrat</code> Block: Rechtsklick (Mac: control-Klick) auf den grauen Hintergrund im Skript-bereich und wählt "neuen Block bauen..."
                     <ul>
-                    	<li>The video below shows the first few steps. Finish it yourself, and press OK or Apply.</li>
-                        <li>More details about defining blocks are in the big yellow section below.</li>
+                    	<li>In dem Video unterhalb werden die ersten Schritte dargestellt. Schließt die Erstellung selbst ab und klickt auf OK für Anwenden.</li>
+                        <li> Mehr Details wie Blöcke definiert werden sind unten im gelben Bereich.</li>
                     </ul>
                         <img data-gifffer="/bjc-de/img/blocks/make-a-square-block.gif" alt="make a block"><br />
 				</li>
                 <li>
-					<div class="sidenoteBig">Find your block at the bottom of the palette you chose when you defined it. If you created the block as a Motion block, you will find it in the Motion palette. (If you didn't choose a palette, it will be in with Variables.)</div>
-                    Test your <code>draw square</code> block, using it the same way you've used other blocks. Fix your code if necessary.<br />
+					<div class="sidenoteBig">Findet euren Block unten innerhalb der Palette, die ihr bei der Definition ausgewählt habt. Wenn ihr den Block als Bewegungsblock erstellt habt, findet ihr ihn in der Bewegungspalette. (Wenn ihr keine Palette ausgewählt habt, ist sie unter Variablen enthalten.)</div>
+                    Testet euren <code>zeichne Quadrat</code> Block. Benutzt ihn auf die Gleiche Art und Weise wie ihr es mit anderen Block bereits getan habt. Passt eurer Skript an , fall nötig.<br />
                     <img class="indent" src="/bjc-de/img/1-introduction/pen-down-draw-square.png" alt="pen down, draw square" title="pen down, draw square" /><br />
-                    Congratulations! You have just created your first custom block.
+                    Herzlichen Glückwunsch! Ihr habt gerade euren ersten eigenen Block erstellt.
 				</li>
             </ol>
 		</div>
-                
+
         <div class="endnote">
-            Every block needs a place to "live" (a <strong>palette</strong>, shown by the color), a <strong>title</strong>, a <strong>category</strong> (shown by the shape of the block), and a <strong>script</strong> that defines its behavior.
+            Jeder Block braucht einen Platz zum "leben": eine <strong>Palette</strong> (ausgedrückt durch eine Farbe), einen <strong>Titel</strong>, eine <strong>Kategorie</strong> (ausgedrückt durch die Form des Blockes) und einem <strong>Skript</strong>, das sein Verhalten definiert.
 			<ul>
-				<li> 
-                    <div class="sideHOMbig">You can put the new block in any palette that makes sense to you. If you don't choose a palette/color, your block will be a gray "Other" block and will be sorted into the "Variables" tab.</div> 
-                    <strong>Palette:</strong> Choose a palette for your new block to go into. ("Motion" or "Pen" might be appropriate for the <code>draw square</code> block.)<br />
+				<li>
+                    <div class="sideHOMbig">Ihr könnt euren Block in jede Palette einordnen, die für euch Sinn macht.  Falls ihr keine Palette/Farbe ausgewählt habt, erscheint der Block grau und gehört zu der Palette "Andere" und wird zu den Variablen gezählt.</div>
+                    <strong>Palette:</strong> Wähle eine Palette für euren neuen Block aus. ("Bewegung" oder "Stift" wären passende Paletten für den <code>zeichne Quadrat</code> Block.)<br />
                     <!--<img  alt="'make a block' dialog box" width="260" src="/bjc-de/img/sys/make-a-block-BYOB.png" >-->
                 </li>
-                <div class="manual">You can find more information  in the <a href="http://snap.berkeley.edu/snapsource/help/SnapManual.pdf#page=17" target="_blank">Snap Manual pages 17-18</a>.</div>
-                <li> 
-                    <strong>Title:</strong> Give your block a name. For this block, type "draw square" as shown here.<br />
+                <div class="manual">Ihr könnt weitere Informationen in der <a href="http://snap.berkeley.edu/snapsource/help/SnapManual.pdf#page=17" target="_blank">Snap Anleitung (S.17-18)</a> bekommen.</div>
+                <li>
+                    <strong>Titel:</strong> Gebt eurem Block einen Namen. Für diesen Block tippt wie hier gezeigt "zeichne Quadrat" ein.<br />
                     <img class="indent" src="/bjc-de/img/1-introduction/make-draw-square-block.png" alt="Make a command block" title="Make a command block" />
                 </li>
                 <li>
-                	<strong>Category:</strong> Leave "Command" selected since this block  performs an action (drawing a square) rather than  reporting a value. 
+                	<strong>Kategorie:</strong> Lasst "Befehl" ausgewählt, da dieser Block eine Aktion (Zeichnen eines Quadrats) ausführt, anstatt einen Wert zurückzugeben.
               </li>
-                <li><strong>For all sprites.</strong>
+                <li><strong>Für alle Sprites.</strong>
                   <!--<div class="takeNote">
                     You've seen commands before and also reporters, which report information, like this:
                     <p class="center">
                     <img class="inline" src="/bjc-de/img/1-introduction/x-position-reporting--79.png" alt="x position reporting -79" title="x position reporting -79" />
                     <img class="" src="/bjc-de/img/1-introduction/sqrt-of-25-reporting-5.png" alt="Sqrt of 25 reporting 5" title="Sqrt of 25 reporting 5" />
                     </p>
-                    
+
                 </div>-->
-                  In this course, you will almost always want to keep "for all sprites" selected, so you can ignore that choice for now, and click "OK".
+                  In diesem Kurs solltet ihr fast immer "für alle Sprites" ausgewählt lassen, so dass ihr diese Wahl vorerst ignorieren könnt, und auf "OK" klicken könnt.
                 </li>
                 <li>
                     <strong>Behavior:</strong> A dialog titled "Block Editor" will appear. Build the instructions for your new block here just as you do in the scripting area. <!--<a href="/bjc-de/cur/programming/1-introduction/2-drawing-interaction/1-exploring-snap-drawing-motion.html#building">-->Drag blocks from the palette to define the script that will run when your custom block is used. When you are finished, click OK or Apply.<br />
-                    <img class="indent" src="/bjc-de/img/1-introduction/draw-square-definition.png" alt="Script to draw a square" title="Script to draw a square" /> 
+                    <img class="indent" src="/bjc-de/img/1-introduction/draw-square-definition.png" alt="Script to draw a square" title="Script to draw a square" />
                 </li>
 				<div class="takeNote">The editor starts you with a hat block that contains a picture of your block. Remember that hat blocks say when the script below them should run: <code>when flag clicked</code>, <code>when space key pressed</code>, etc. This hat block says, "when the <code>draw square</code> block is used." (Don't worry about the <strong>+</strong> signs for the moment; they just let you add more words or <a href="/bjc-de/cur/programming/1-introduction/3-building-blocks/2-adding-an-input.html?topic=nyc_bjc%2F1-intro-loops.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">inputs</a>.)</div>
 			</ul>
-            <img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /> 
-		</div>    
+            <img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" />
+		</div>
 
         <div class="forYouToDo">
 			<p><strong>Practice building blocks.</strong></p>
@@ -98,7 +98,7 @@
                 <div class="todo">In 1.3.1.4 we show a video of someone drawing the turning at the corner of an equilateral triangle.  But we gave away the story in 1.2.4. --AC</div>
                 <li>Define a <code>draw triangle</code> block that draws an equilateral triangle with the same side length as the square you just drew (50).
 <a id="hintbutton" onClick="document.getElementById('hintbutton').innerHTML=window.newtext;Gifffer();">(Don't click this sentence unless you've been working on this for ten solid minutes and need a hint.)</a>
-</li>  
+</li>
                 <li>Create a <code>draw house</code> block that uses your <code>draw square</code> and <code>draw triangle</code> blocks together to draw a "house" shape: a square with a triangular shaped roof sitting on top.  (You might have to do some debugging to get the two shapes to connect properly.)</li>
                 <li>
                     Build a <code>draw row of houses</code> block that draws a row of attached houses, each new one to the right of the previous, until the sprite moves too close to the right edge of the screen. For that, you will need <code>repeat until</code>.<br />
@@ -108,13 +108,13 @@
                 <img class="inline" src="/bjc-de/img/icons/save-now.png" alt="Now Is a Good Time to Save" title="Now Is a Good Time to Save" />
             </ol>
         </div>
-        
+
         <!-- We can't do this yet because we've done nothing with inputs so far. --MF
         <div class="takeItFurther">
             <ol type="A">
                 <img class="imageRight" src="/bjc-de/img/drawing/flower-with-6-square-petals.png" alt="flower with 6 square petals">
                 <li>Use your <img class="inline" src="/bjc-de/img/blocks/draw-square-empty-parameter.png" alt="empty square ()" title="empty square ()" /> block to create a block <img class="block" src="/bjc-de/img/1-introduction/draw-square-petal-flower-empty-parameters.png" alt="360 divided by the number of petals"> that will draw a  flower with square petals, like the one shown here, but with any specified number of square-shaped petals of the specified size.  Calling <img class="block" src="/bjc-de/img/1-introduction/draw-square-petal-flower-6-50-parameters.png" alt="block: draw a flower with 6 petals of size 50"> should draw the example picture shown here.</li>
-                <div class="endnote"><img class="imageRight" src="/bjc-de/img/icons/talk-with-another-pair-mini.png" alt="Talk with Another Pair" title="Talk with Another Pair" />After you've worked on this for a bit, take a moment to look at what others have done.  If you see something you like, think how you could use that idea in your program.</div>		
+                <div class="endnote"><img class="imageRight" src="/bjc-de/img/icons/talk-with-another-pair-mini.png" alt="Talk with Another Pair" title="Talk with Another Pair" />After you've worked on this for a bit, take a moment to look at what others have done.  If you see something you like, think how you could use that idea in your program.</div>
                 <li>
                     Now, draw a field of flowers and give each flower a different color, size, shape, position, and so forth.
                     <ol>
