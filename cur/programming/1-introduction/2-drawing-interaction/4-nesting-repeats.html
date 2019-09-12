@@ -8,17 +8,17 @@
         <link rel="stylesheet" type="text/css" href="/bjc-de/css/bjc-gifffer.css">
         <title>Unit 1 Lab 2: Sprite Drawing and Interaction, Page 4</title>
     </head>
-    
+
     <body>
         <img class="imageRight" src="/bjc-de/img/icons/teachers-choice.png" alt="Teacher's Choice" title="Teacher's Choice" />
-        <h2>Nesting Repeats (Teacher's Choice)</h2>        
+        <h2>Verschachtelte Wiederholungen (Nach Entscheidung des Lehrers)</h2>
 		<div class="todo">
         	<ul>
                 <li>GH Feedback 8/30/15: More of a question - Should the triangles exercise be something they turn in? Seems like it's somewhat involved, and a good example of abstraction.</li>
             </ul>
         </div>
-        <p> 
-        	It is also possible to <em>nest</em> one <code>repeat</code> block inside another. Since <span class="snap">snap</span> processes scripts from top to bottom, the first <code>repeat</code> will begin first, and the second <code>repeat</code> will have to complete all its repetitions before the first <code>repeat</code> continues.<br />
+        <p>
+        	Es ist auch möglich Wiederholungen zu <em>verschachteln</em>, ein Wiederholungsblock <em>innerhalb</em> eines anderen. In <span class="snap">snap</span> wird das Skript von oben nach unten ausgeführt. Der erste <code>wiederhole</code> Block wird einmal ausgeführt und der innere <code>wiederhole</code> Block führt alle seine Durchläufe aus, bevor der äußere <code>wiederhole</code> Block weitermacht.<br />
             <img class="indent" src="/bjc-de/img/1-introduction/two-color-sierpinski-code.png" alt="repeat (3) (set pen color to (red), move (100) steps, repeat (3) (set pen color to (blue), move (100) steps, turn right (120) degrees), turn right (120) degrees)" title="repeat (3) (set pen color to (red), move (100) steps, repeat (3) (set pen color to (blue), move (100) steps, turn right (120) degrees), turn right (120) degrees)" />
         </p>
         <div class="ifTime" id="first">
@@ -33,59 +33,59 @@
                     </ol>
                 </li>-->
 	            <li>
-                	Build a script that draws a red triangle, duplicate it twice, and make the two new scripts draw a smaller blue triangle and an even smaller green one. 
+                	Entwerfe ein Skript, das ein rotes Dreieck zeichnet. Dupliziere es Zweimal und erstelle aus den Kopien einmal ein Skript, das ein kleineres blaues Dreieck zeichnet und aus der zweiten Kopie ein Skript, das ein noch kleineres grünes Dreieck erstellt.
                     <ul>
-                    	<li>To duplicate a script, right-click (or control-click) on the first block of the script (in this case, the <code>repeat</code> block) and choose "duplicate".</li>
+                    	<li>Um ein Skript zu duplizieren, mache ein Rechtsklick auf den obersten Block des Skripts (in diesem Fall der <code>wiederhole</code> Block) und wähle "Duplizieren" aus.</li>
                         <li>
-                            Then, change the inputs as the video shows:<br />
+                            Ändere dann, wie im Video gezeigt, die Eingaben:<br />
                             <img class="indent" data-gifffer="/bjc-de/img/1-introduction/duplicating-a-script.gif" alt="duplicating a script">
                         </li>
                     </ul>
                 </li>
-                <li>Try each script by itself to be certain what it does. Then clear the stage.</li>
+                <li>Teste jedes Skript einzeln, um zu überprüfen ob jedes Skript funktioniert. Dann säubere die Bühne.</li>
                 <li>
-                    Now, insert the entire script for the blue triangle between the <code>move</code> and <code>turn</code> blocks of the red triangle, like this. <br />
+                    Füge jetzt das gesamte Skript für das blaue Dreieck zwischen die <code>gehe</code> und <code>drehe</code> Blocke von roten Dreieck, wie folgend dargestellt. <br />
                     <img class="indent" data-gifffer="/bjc-de/img/1-introduction/embedding-one-script-in-another.gif" alt="embedding the blue triangle in the red triangle">
-                    <img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" /> 
+                    <img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" />
                 </li>
                 <li><img class="inline" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner" />
- Predict what will happen when you run this script.</li>
-                <li>Then, try this script to see what it does.</li>
+                    Sagt vorher was passieren wird, wenn ihr das Skript ausführen werdet.</li>
+                <li>Führt dann euer Skript aus und beobachtet was passiert.</li>
                 <li>
-                    Using the scripts you have, find a way to make this picture.<br />
+                    Versucht folgendes Bild mit eurem Skript darzustellen.<br />
                     <img class="indent" src="/bjc-de/img/1-introduction/three-color-sierpinski.png" alt="Red triangle with blue children and green grandchildren" title="Red triangle with blue children and green grandchildren" />
                 </li>
             </ol>
         </div>
-        
+
         <div class="takeItFurther"><a name="further" class="anchor">&nbsp;</a>
         	<ol type="A">
-            	<li>If you like, embed one more triangle, half the size of the last one, in the same way.</li>
+            	<li>Wenn ihr wollt, könnt ihr noch ein weiteres Dreieck in euer Skript einbetten. Das Dreieck hat die halbe Größe bezogen auf das letzte Dreieck.</li>
             </ol>
         </div>
-        
+
         <div class="ifTime">
             <ol start="7">
             	<li>
-                    This animation shows another example of embedding one script inside a similar script. (You'll make predictions first, so don't build it yet.)<br />
-                    <img class="indent" data-gifffer="/bjc-de/img/1-introduction/embedding-scripts-for-squares.gif" alt="embedding scripts for squares" title="embedding scripts for squares" />                   
+                    Diese Animation zeigt ein weiteres Beispiel wie ein Skript in ein gleiches Skript eingebettet werden kann. (Ihr werdet erst Vorhersagen machen, also jetzt noch nicht bauen.)<br />
+                    <img class="indent" data-gifffer="/bjc-de/img/1-introduction/embedding-scripts-for-squares.gif" alt="embedding scripts for squares" title="embedding scripts for squares" />
                     <ol type="a">
-                        <li>Before building this script, sketch what each of the two <em>individual</em> scripts will draw before they are combined. </li> 
-                        <li>Predict the number of blue shapes that the combined script will draw.</li>
-                        <li>Sketch the shape that the combined script will draw.</li>
-                        <li>Now, build the combined script and try it out.</li>
-                        <li><strong>Experiment: </strong> Embed <em>another</em> square, half the size of the last, in the same way. How many of these smallest squares does the script draw? How could you have <em>predicted </em> that number before trying it?</li>
-                        <li><strong>Predict then experiment: </strong> Next, embed <em>one more</em> square, half the size of the last, in exactly the same way. But first, try to <em>predict</em> the number of tiny squares it will draw before trying it.</li>
+                        <li>Bevor ihr das Skript bautBefore building this script, skizziert mögliche Formen die die Skripte malen werden bevor sie kombiniert werden. </li>
+                        <li>Sagt die Anzahl der blauen Formen vorher, die das kombinierte Skript zeichnen wird.</li>
+                        <li>Skizziert die Form, die das kombinierte Skript malen wird.</li>
+                        <li>Baut nun das kombinierte Skript und probiert es aus.</li>
+                        <li><strong>Experiment: </strong> Bettet ein <em>weiteres</em> Quadrat mit der halben Größe der letzten Form nach dem gleichen Schema ein. Wieviele von diesen kleinen Quadraten wird das Skript zeichnen? Wie könnt ihr die Anzahl <em>vorhersagen</em> bevor ihr das Skript ausgeführt habt ? </li>
+                        <li><strong>Vorhersage und dann Experiment: </strong> Als nächstes bettet ihr auf genau dem selben Wege <em>noch ein</em> Quadrat ein, das halb so groß ist wie das vorherige Quadrat. Versucht jedoch bevor ihr das Programm ausführt als erstes die Anzahl der mini Quadrate <em>vorherzusagen</em>.</li>
                     </ol>
                 </li>
             </ol>
 		</div>
-	
+
         <!--Quiz commented out partly because of comment and partly because it's the only quiz in U1 and it's just this little thing at the end and that feels weird—especially on an optional page. --MF
-        
+
         <div class="todo">
             <ul>
-                <li>GH Feedback 8/30/15: I'm not thrilled with the REPEAT 0 block in the quiz. I get the point, but is there some other way to make it? I'm not a fan of making examples with code that nobody would ever want to write.</li>            
+                <li>GH Feedback 8/30/15: I'm not thrilled with the REPEAT 0 block in the quiz. I get the point, but is there some other way to make it? I'm not a fan of making examples with code that nobody would ever want to write.</li>
             </ul>
         </div>
         <h3>Nesting Repeats Self Check</h3>
@@ -135,8 +135,8 @@
 					6
 				</div>
 				<div class="feedback">
-					No; look carefully at the outermost repeat block, with 
-					a 0 as its parameter.  That outer "repeat 0" block 
+					No; look carefully at the outermost repeat block, with
+					a 0 as its parameter.  That outer "repeat 0" block
 					will run its inner blocks <b>zero</b> times.
 				</div>
 			</div>
@@ -144,7 +144,7 @@
 				<div class="correctResponse" identifier="c1"></div>
 			</div>
 		</div>-->
-    
-    
+
+
     </body>
 </html>
