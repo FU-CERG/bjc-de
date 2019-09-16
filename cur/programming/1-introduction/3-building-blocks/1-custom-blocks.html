@@ -7,7 +7,7 @@
 		<script type="text/javascript">window.onload = function() {Gifffer();}</script>
         <link rel="stylesheet" type="text/css" href="/bjc-de/css/bjc-gifffer.css">
         <script> window.newtext='<br /><img src="/bjc-de/img/1-introduction/draw-triangle.gif"  alt="Pencil trace of turn angle drawing a triangle">';</script>
-        <title>Lektion 1 Programmieraufgabe 2: Erstellen eigener Blöcke (1/4)</title>
+        <title>Lektion 1 Programmieraufgabe 3: Erstellen eigener Blöcke (1/4)</title>
     </head>
 
     <body>
@@ -83,25 +83,25 @@
                   In diesem Kurs solltet ihr fast immer "für alle Sprites" ausgewählt lassen, so dass ihr diese Wahl vorerst ignorieren könnt, und auf "OK" klicken könnt.
                 </li>
                 <li>
-                    <strong>Eigenschaften:</strong> A dialog titled "Block Editor" will appear. Build the instructions for your new block here just as you do in the scripting area. <!--<a href="/bjc-de/cur/programming/1-introduction/2-drawing-interaction/1-exploring-snap-drawing-motion.html#building">-->Drag blocks from the palette to define the script that will run when your custom block is used. When you are finished, click OK or Apply.<br />
+                    <strong>Eigenschaften:</strong> Ein Fenster "Block Editor" wird sich öffnen. Baue dort die Instruktionen für euren neuen Block, so wie ihr es im Skript-Bereich bis jetzt getan habt. <!--<a href="/bjc-de/cur/programming/1-introduction/2-drawing-interaction/1-exploring-snap-drawing-motion.html#building">-->Drag blocks from the palette to define the script that will run when your custom block is used. When you are finished, click OK or Apply.<br />
                     <img class="indent" src="/bjc-de/img/1-introduction/draw-square-definition.png" alt="Script to draw a square" title="Script to draw a square" />
                 </li>
-				<div class="takeNote">The editor starts you with a hat block that contains a picture of your block. Remember that hat blocks say when the script below them should run: <code>when flag clicked</code>, <code>when space key pressed</code>, etc. This hat block says, "when the <code>draw square</code> block is used." (Don't worry about the <strong>+</strong> signs for the moment; they just let you add more words or <a href="/bjc-de/cur/programming/1-introduction/3-building-blocks/2-adding-an-input.html?topic=nyc_bjc%2F1-intro-loops.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">inputs</a>.)</div>
+				<div class="takeNote">Der Editor beginnt mit einem Kopfblock, der ein Bild eures Blocks enthält. Denkt daran, dass Kopfblöcke sagen, wann das Skript unter ihnen ausgeführt werden soll: <code>wenn grüne Flagge angeklickt</code>, <code>wenn Taste Leertaste gedrückt</code>, etc. Dieser Kopfblock sagt:"wenn der <code>zeichne Quadrat</code> Block benutzt wird." (Macht euch noch keine Gedanken wegen der <strong>+</strong> Zeichen, diese sind für weitere Wörter oder <a href="/bjc-de/cur/programming/1-introduction/3-building-blocks/2-adding-an-input.html?topic=nyc_bjc%2F1-intro-loops.topic&course=bjc4nyc_2015-2016.html&novideo&noassignment">Eingaben</a>.)</div>
 			</ul>
             <img class="imageRight" src="/bjc-de/img/icons/pair-programming-swap.png" alt="Pair Programming Swap" title="Pair Programming Swap" />
 		</div>
 
         <div class="forYouToDo">
-			<p><strong>Practice building blocks.</strong></p>
+			<p><strong>Übung von Blöcke-Bauen</strong></p>
             <ol start="4">
                 <img class="imageRight" src="/bjc-de/img/1-introduction/house.jpg" alt="House" title="House" />
                 <div class="todo">In 1.3.1.4 we show a video of someone drawing the turning at the corner of an equilateral triangle.  But we gave away the story in 1.2.4. --AC</div>
-                <li>Define a <code>draw triangle</code> block that draws an equilateral triangle with the same side length as the square you just drew (50).
-<a id="hintbutton" onClick="document.getElementById('hintbutton').innerHTML=window.newtext;Gifffer();">(Don't click this sentence unless you've been working on this for ten solid minutes and need a hint.)</a>
+                <li>Definiere ein <code>zeichne Dreieck</code> Block, der ein gleichseitiges Dreieck zeichnen kann, das die gleiche Seitenlänge hat, wie euer bereits gezeichnetes Quadrat (50).
+<a id="hintbutton" onClick="document.getElementById('hintbutton').innerHTML=window.newtext;Gifffer();">(Klicke erst auf diesen Hinweis, wenn ihr nach 10 Minuten noch keinen Ansatz habt.)</a>
 </li>
-                <li>Create a <code>draw house</code> block that uses your <code>draw square</code> and <code>draw triangle</code> blocks together to draw a "house" shape: a square with a triangular shaped roof sitting on top.  (You might have to do some debugging to get the two shapes to connect properly.)</li>
+                <li>Erstelle ein <code>zeichne Haus</code> Block, der eure selbsterstellten <code>zeichne Quadrat</code> und <code>zeichne Dreieck</code> Blocks zusammen benutzt, um ein Haus-Form zu zeichnen: Ein Quadrat mit einem dreieckförmigen Dach, das auf dem Quadrat sitzt.  (Ihr müsst wahrscheinlich verschieden Anordnungen ausprobieren, damit ihr zum geforderten Aussehen kommt.)</li>
                 <li>
-                    Build a <code>draw row of houses</code> block that draws a row of attached houses, each new one to the right of the previous, until the sprite moves too close to the right edge of the screen. For that, you will need <code>repeat until</code>.<br />
+                    Baut einen <code>zeichne Reihe von Häusern</code> Block, der eine Reihe von aneinandergehängten Häusern zeichnet. Jedes neue Haus an der rechten Seite des vorherigen Hauses. Damit der Sprite nicht rechts die Bühne verlässt, benötigt ihr. Für das benötigt ihr den <code>wiederhole bis</code> Block.<br />
                     <img class="indent" src="/bjc-de/img/1-introduction/repeat-until-(x-position-greater-than-190).png" alt="repeat-until-(x-position-less-than-210)">
 					<img class="imageRight noshadow" src="/bjc-de/img/1-introduction/row-houses.png" alt="Row of 4 Houses" title="Row of 4 Houses" />
                 </li>
