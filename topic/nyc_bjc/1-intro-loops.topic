@@ -33,7 +33,7 @@ heading: Programmieraufgabe 3: Erstellen eigener Blöcke
  	raw-html: <img class="imageRight noshadow" src="/bjc-de/img/1-introduction/Simpler-TicTacToe-video.gif" width="312" alt="Tic Tac Toe Video">
 	resource: Entwerfen von benutzerdefinierten Blöcken [/bjc-de/cur/programming/1-introduction/3-building-blocks/1-custom-blocks.html]
 	resource: Ihrem Block eine Eingabevariable geben [/bjc-de/cur/programming/1-introduction/3-building-blocks/2-adding-an-input.html]
-	resource: Der <code>For</code> Block [/bjc-de/cur/Programming/1-introduction/3-building-blocks/3-the-for-block.html]
+	resource: Der <code>For</code> Block [/bjc-de/cur/programming/1-introduction/3-building-blocks/3-the-for-block.html]
 	resource: Spielen mit dem <code>For</code> Block [/bjc-de/cur/programming/1-introduction/3-building-blocks/4-playing-with-the-for-block.html]
 
 heading: Programmieraufgabe 4: Erstellen von Rastern für Spiele
