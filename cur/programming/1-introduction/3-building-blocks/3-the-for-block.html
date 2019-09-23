@@ -3,16 +3,16 @@
     <head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <script type="text/javascript" src="/bjc-de/llab/loader.js"></script>
-        <title>Unit 1 Lab 3: Building Your Own Blocks, Page 3</title>
+        <title>Lektion 1 Programmieraufgabe 3: Erstellen eigener Blöcke (2/4)</title>
     </head>
-    
+
     <body>
-		<h2>The <code>For</code> Block</h2>
-        <div class="endnote">
+		<h2>Der <code>Für</code> Block</h2>
+      <!--  <div class="endnote">
                 <p class="center"><img class="inline" src="/bjc-de/img/icons/import-tools.png" alt="Import Tools" title="Import Tools" /></p>
-                In the current version of <span class="snap">snap</span>, the <code>for</code> block isn't installed automatically. Click on the File <img src="/bjc-de/img/sys/button-file-menu.png" class="inline" style="height:1.7em;" alt="File menu icon" title="File menu icon" /> menu at the top of the <span class="snap">snap</span> window and select "Import Tools." You'll need to import tools once into each new <span class="snap">snap</span> project where you need <code>for</code> and some other important tools. 
+                In der aktuellen Version von <span class="snap">snap</span>, the <code>for</code> block isn't installed automatically. Click on the File <img src="/bjc-de/img/sys/button-file-menu.png" class="inline" style="height:1.7em;" alt="File menu icon" title="File menu icon" /> menu at the top of the <span class="snap">snap</span> window and select "Import Tools." You'll need to import tools once into each new <span class="snap">snap</span> project where you need <code>for</code> and some other important tools. -->
 </div>
-        
+
         <!-- THIS SEEMS TO BE AN ISSUE WITH THE USER SYSTEM
         <div class="todo">
             <ul>
@@ -26,76 +26,76 @@
                 </li>
             </ul>
         </div>-->
-        
+
         <p>
-        	You have already used three ways to repeat a set of actions.
+        	Ihr habt bereits drei Wege kennengelernt eine Menge von Aktionen zu wiederholen.
         	<ol>
-				<li>The <img class="inline" src="/bjc-de/img/blocks/forever.png" alt="the forever block" title="the forever block" /> block tells the computer to repeat the same action <em>forever</em>.</li>
-                <li>The <img class="inline" src="/bjc-de/img/blocks/repeat.png" alt="the repeat block" title="the repeat block" /> block lets you repeat an action <em>a specific number of times</em>.</li>
-				<li>The <img src="/bjc-de/img/blocks/repeat-until.png"  alt="repeat until"> block lets you repeat an action <em>until some special condition occurs</em>.</li>
+				<li>Der <img class="inline" src="/bjc-de/img/blocks/forever.png" alt="the forever block" title="the forever block" /> Block sagt dem Computer, dass er die gleiche Aktion <em>fortlaufend</em> ausführen soll.</li>
+                <li>Der <img class="inline" src="/bjc-de/img/blocks/repeat.png" alt="the repeat block" title="the repeat block" /> Block führt eine Aktion <em>eine definierte Anzahl</em> oft aus.</li>
+				<li>Der <img src="/bjc-de/img/blocks/repeat-until.png"  alt="repeat until"> Block führt eine Aktion ao lange aus is eine <em> definierte Bedingung eintritt</em>.</li>
             </ol>
-            On this page, you will learn a fourth useful way.
+            Auf dieser Seite werdet ihr eine vierte nützliche  Möglichkeit lernen.
         	<ol start="4">
-				<li>The <img src="/bjc-de/img/prog/for.png" class="imageCenter" alt="for"> block lets you name a variable (here, <img class="inline" src="/bjc-de/img/blocks/variable-i.png" alt="i" title="i" />) that says which repetition you are on. You can use the variable in the script you are repeating. </li>
+				<li>In dem <img src="/bjc-de/img/prog/for.png" class="imageCenter" alt="for"> Block könnt ihr eine Variable (hier, <img class="inline" src="/bjc-de/img/blocks/variable-i.png" alt="i" title="i" />) definieren, die euch sagt bei der wievielten wiederholung ihr gerade seid. Ihr könnt die Variable so wie auf der letzten Seite im Skript benutzen, das ihr wiederholt. </li>
             </ol>
         </p>
         <p>
-        	The <code>for</code> block lets you simplify long scripts like:<br /> 
-            <div class="sideHOMbig">Each time the <code>for</code> block  runs your script, it changes the value of the variable <!--<img class="inline" src="/bjc-de/img/blocks/variable-i.png" alt="i" title="i" />-->by 1, counting from the first input number to the second. You can <em>use</em> that variable in your script.<!-- The animation shows how. If you like, you can also change the name of that variable by clicking on it. --></div>   
-            <img class="indent" src="/bjc-de/img/looping/for-loop-equivalent.png" alt="say (1) for (2) secs, say (2) for (2) secs, say (3) for (2) secs... say (10) for (2) secs" title="say (1) for (2) secs, say (2) for (2) secs, say (3) for (2) secs... say (10) for (2) secs" />  
-            &nbsp; &nbsp; &nbsp; to  
-            <img class=" noshadow" src="/bjc-de/img/looping/for-loop-drag-i.gif" alt="for (i) (1) to (10) [say (Hello!) for (2) secs" title="for (i) (1) to (10) [say (Hello!) for (2) secs" /> 
+        	Der <code>für</code> Block vereinfacht lange Skripte wie:<br />
+            <div class="sideHOMbig">Immer wenn der <code>für</code> Block euer Skript ausführt, ändert sich der Wert der Variable <!--<img class="inline" src="/bjc-de/img/blocks/variable-i.png" alt="i" title="i" />-->um 1. Gezählt wird von der ersten Eingabezahl bis zur zweiten Eingabezahl. Ihr könnt die Variable in eurem Skript <em>benutzen</em>.<!-- The animation shows how. If you like, you can also change the name of that variable by clicking on it. --></div>
+            <img class="indent" src="/bjc-de/img/looping/for-loop-equivalent.png" alt="say (1) for (2) secs, say (2) for (2) secs, say (3) for (2) secs... say (10) for (2) secs" title="say (1) for (2) secs, say (2) for (2) secs, say (3) for (2) secs... say (10) for (2) secs" />
+            &nbsp; &nbsp; &nbsp; wird zu
+            <img class=" noshadow" src="/bjc-de/img/looping/for-loop-drag-i.gif" alt="for (i) (1) to (10) [say (Hello!) for (2) secs" title="for (i) (1) to (10) [say (Hello!) for (2) secs" />
 		</p>
-        
+
         <div class="forYouToDo" id="first">
             <ol>
-                <li>The script above makes the sprite say the numbers 1 through 10. Build it and modify it so that the sprite says 0, 2, 4, 6, 8, ... up through 30.</li>
-                <li>Discuss your solutions with another pair.</li>
-				<div class="endnote">The <code>for</code> block gives you a variable, <var>i</var>. You can change the name of this variable by clicking on it <em>without</em> dragging it. Then, drag it where you want to use it just like the variable you created in your <code>draw square</code> block.</div>
+                <li>Das Skript oberhalb lässt den Sprite die Nummern 1 bis 10 sagen. Baue es und modifiziere das Skript so, dass der Sprite nur die Zahlen 0, 2, 4, 6, 8, ... bis 30 sagt.</li>
+                <li>Diskutiert eure Lösungen mit anderen Paaren.</li>
+				<div class="endnote">Der <code>für</code> Block gibt euch eine Variable <var>i</var>. Ihr könnt den Namen dieser Variable <em>ohne zu ziehen</em> durch Draufklicken ändern. Dann zieht die Variable dort hin wo ihr sie verwenden wollt, wie bei der Variable, die ihr beim <code>zeichne Quadrat</code> block verwendet habt.</div>
                 <li>
-                    Build this script and try it out:<br />
-					<div class="sidenote">This design got the nickname "squiral" because it's a square spiral. </div>
+                    Baut dieses Skript und propiert es aus:<br />
+					<div class="sidenote">Dieses Design hat den Spitznamen "Quirale" weil es eine Quadrat Spirale ist. </div>
                     <img class="indent" src="/bjc-de/img/looping/squirral-script.png" alt="squiral script"><br />
                 </li>
-                <li><img class="inline" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner" /> Make sure you can explain why the squiral spirals outward.</li>
-                <li>Try switching the order of the 100 and the 1 in the <code>for</code> block in the squiral script. What is the result?</li>
-                <li><strong>Experiment:</strong> Try changing the turning angle in the squiral script to other numbers such as 92, 126, etc.</li>
-                <li>Change the turn angle and the move steps to get as close as you can get to a smooth spiral:<br />
+                <li><img class="inline" src="/bjc-de/img/icons/talk-with-your-partner.png" alt="Talk with Your Partner" title="Talk with Your Partner" /> Seid euch sicher, dass ihr erklären könnt, warum die Quirale Spriale nach außen geht.</li>
+                <li>Versucht im Quirale-Skript die Reihenfolge der Zahlen 100 und 1 im <code>für</code> Block auszustauschen. Was ist das Ergebnis?</li>
+                <li><strong>Experiment:</strong> Versucht die Drewhwinkel im Quirale-Skript zu anderen Zahlen wie 92, 126, etc. zu verändern.</li>
+                <li>Ändert die Drewhwinkel und die Schrittanzahl, um eine annäherungsweise glatte Spirale zu erstellen:<br />
                     <img class="indent" src="/bjc-de/img/prog/spiral.png" alt="spiral" title="spiral" />
                 </li>
-                <li> 
-                	Build a <em>block</em> <code>nest squares</code> that uses <code>for</code> and your <code>square</code> block to nest squares. Give it an input so that it will draw whatever number of squares you specify, with each square larger than the previous: <br /> 
+                <li>
+                	baut einen <em>Block</em> <code>verschachtelte Quadrate</code>, der den <code>für</code> Block und euren <code>Quadrat</code> Block verwendet, um verschachtelte Quadrate zu erstellen. Gebt dem Block ein Input, sodass euer Block die Anzahl an gewünschten Quadraten zeichnet. Wobei drauf zu achten ist, dass jedes Quadrat größer als das vorherige sein muss: <br />
 					<img class="indent" src="/bjc-de/img/1-introduction/nested-squares.png" alt="nested squares">
                 </li>
-                <li><div class="saveAs"><span class="text">"U1L3-Squiral"</span><img class="inline" src="/bjc-de/img/icons/save-this-as.png" alt="Save your work as U1L3-Squiral" title="Save your work as U1L3-Squiral" /></div></li>
+                <li><div class="saveAs"><span class="text">"L1P3-Quirale"</span><img class="inline" src="/bjc-de/img/icons/save-this-as.png" alt="Save your work as U1L3-Squiral" title="Save your work as U1L3-Squiral" /></div></li>
 			</ol>
 		</div>
-        
+
         <div class="takeItFurther"><a name="further" class="anchor">&nbsp;</a>
-            <div>      
+            <div>
             	<ol type="A">
-					<li>Build a script that counts by 10 from 100 to 0  (that is, 100, 90, 80, etc.).</li>
+					<li>baut ein Skript, das von 100 zu 0 in Zehnerschritten zählt (das ist, 100, 90, 80, etc.).</li>
 					<!--<li><img class="inline" src="/bjc-de/img/icons/tough-stuff-mini.png" alt="Tough Stuff" title="Tough Stuff" /> Build a <em>block</em> with inputs that let you specify how to count. If you say <img src="/bjc-de/img/1-introduction/count-by-10-from-100-to-0.png" alt="count-by-10-from-100-to-0">, it counts 100, 90, 80, etc., but if you say <img src="/bjc-de/img/1-introduction/count-by-2-from-0-to-30.png" alt="count-by-2-from-0-to-30">, it counts 0, 2, 4, 6, ..., 28, 30.</li>-->
 
                     <li>
-                        Find a way to use <code>for</code> to nest squares this way. Build your <em>block</em> with two inputs that let you specify how many squares the design will contain and how much bigger each square will be than the previous one.<br />
-                        <img class="imageRight" src="/bjc-de/img/icons/tough-stuff.png" alt="Tough Stuff" title="Tough Stuff" /> 
+                        Findet einen Weg, um mit dem <code>for</code> Block folgendermaßen Quadrate zu verschachteln. Baut euren <em>Block</em> mit zwei Inputs, die definieren wie viele Quadrate euer Bild enthält und um wie viel größer ein Quadrat im vergleich zum Vorgänger sein soll.<br />
+                        <img class="imageRight" src="/bjc-de/img/icons/tough-stuff.png" alt="Tough Stuff" title="Tough Stuff" />
                         <img class="indent" src="/bjc-de/img/1-introduction/concentric-squares.png" width="219" height="170" alt="concentric squares">
                     </li>
 	                <li>
-                    	<img class="inline" src="/bjc-de/img/icons/tough-stuff-mini.png" alt="Tough Stuff" title="Tough Stuff" /> Build a script that draws 12 regular polygons, each with one more side than the previous one.<br />
+                    	<img class="inline" src="/bjc-de/img/icons/tough-stuff-mini.png" alt="Tough Stuff" title="Tough Stuff" /> Baut ein Skript, das 12 reguläre Vielecke zeichnet, wobei jedes Vieleck eine Seite mehr als sein Vorgänger hat.<br />
                     	<div class="sidenote">
-                            <p>A <em>regular</em> polygon is a polygon whose sides are all the same length and whose angles are all the same size.</p>
-                            <p>A <em>polygon</em> is a figure made up of line segments so that each segment meets exactly two others, and meets them at their endpoints.</p>
+                            <p>Ein<em>reguläres</em> Vieleck ist ein Vieleck bei dem jede Seite die gleiche Länge hat und bei dem alle Winkel die gleiche Größe haben.</p>
+                            <p>Ein <em>Vieleck</em> ist eine Figur, die aus Liniensegmenten besteht und dass jedes Segment genau zwei andere Segmente an ihren Endpunkten trifft.</p>
                         </div>
                         <img class="indent" src="/bjc-de/img/1-introduction/polygons.png" alt="polygons: triangle through decagon" title="polygons: triangle through decagon" />
                     </li>
-                    <li>Predict what this script will do before you try it:<br /><img class="indent" src="/bjc-de/img/1-introduction/nested-fors.png" width="399" height="147" alt="for tens = 0 to 9, for ones = 0 to 9, say (join tens ones) for 0.3 secs"></li>
-                    
+                    <li>Sagt vorher was folgendes Skript tun wird, bevor ihr es ausprobiert:<br /><img class="indent" src="/bjc-de/img/1-introduction/nested-fors.png" width="399" height="147" alt="for tens = 0 to 9, for ones = 0 to 9, say (join tens ones) for 0.3 secs"></li>
+
             	</ol>
             </div>
-        </div>  
-       
-        
+        </div>
+
+
     </body>
 </html>
